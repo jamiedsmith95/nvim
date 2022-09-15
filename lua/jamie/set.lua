@@ -6,6 +6,9 @@ vim.opt.relativenumber = true
 vim.opt.ignorecase = true
 vim.lazyredraw = true
 vim.opt.clipboard = "unnamedplus"
+vim.opt.completeopt = {"menuone", "noselect"}
+vim.opt.termguicolors = true
+vim.opt.cursorline = true
 vim.opt.splitright = true
 vim.opt.scrolloff = 9
 vim.opt.expandtab = true
@@ -55,5 +58,7 @@ vim.cmd([[
     let &shell='/bin/bash --rcfile /home/jsmith49/.profile'
     let g:netrw_silent=1
     let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+    let g:HiCursorWords_delay = 1
+    let g:HiCursorWords_style='cterm=reverse gui=reverse'
 ]])
 
