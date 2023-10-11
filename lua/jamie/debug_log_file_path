@@ -1,0 +1,6354 @@
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: vim.opt.expandtab = t |3: vim.opt.expandtab = t |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: vim.opt.expandtab = t |3: vim.opt.expandtab = t |4: vim.opt.expandtab = t |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:    |3:    |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:    |3:    |4:    |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  use |3:   use |4:    |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use |3:   use |4:   use |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: e  |3:   use  |4:   use |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use  |3:   use  |4:   use  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  ' |3:   use ' |4:   use  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use ' |3:   use ' |4:   use ' |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  ' |3:   use  |4:   use ' |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: e  |3:   use |4:   use  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use |3:   use |4:   use |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: se |3:   us |4:   use |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: us |3:   u |4:   us |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  u |3:    |4:   u |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2:  u |3:   u |4:    |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   u |3:   u |4:   u |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: us |3:   us |4:   u |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: se |3:   use |4:   us |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:   use |3:   use |4:   use |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2:   use |3:   use |4:   use |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: e  |3:   use  |4:   use |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  ' |3:   use ' |4:   use  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: 'B |3:   use 'B |4:   use ' |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'B |3:   use 'B |4:   use 'B |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: Bur |3:   use 'Bur |4:   use 'B |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: rns |3:   use 'Burns |4:   use 'Bur |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'Burns |3:   use 'Burns |4:   use 'Burns |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ns |3:   use 'Burn |4:   use 'Burns |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: nt |3:   use 'Burnt |4:   use 'Burn |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'Burnt |3:   use 'Burnt |4:   use 'Burnt |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: tS |3:   use 'BurntS |4:   use 'Burnt |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: Su |3:   use 'BurntSu |4:   use 'BurntS |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'BurntSu |3:   use 'BurntSu |4:   use 'BurntSu |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: us |3:   use 'BurntSus |4:   use 'BurntSu |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'BurntSus |3:   use 'BurntSus |4:   use 'BurntSus |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: sh |3:   use 'BurntSush |4:   use 'BurntSus |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: hi/ |3:   use 'BurntSushi/ |4:   use 'BurntSush |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: /rip |3:   use 'BurntSushi/rip |4:   use 'BurntSushi/ |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'BurntSushi/rip |3:   use 'BurntSushi/rip |4:   use 'BurntSushi/rip |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: pg |3:   use 'BurntSushi/ripg |4:   use 'BurntSushi/rip |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'BurntSushi/ripg |3:   use 'BurntSushi/ripg |4:   use 'BurntSushi/ripg |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: gr |3:   use 'BurntSushi/ripgr |4:   use 'BurntSushi/ripg |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: re |3:   use 'BurntSushi/ripgre |4:   use 'BurntSushi/ripgr |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'BurntSushi/ripgre |3:   use 'BurntSushi/ripgre |4:   use 'BurntSushi/ripgre |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ep |3:   use 'BurntSushi/ripgrep |4:   use 'BurntSushi/ripgre |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: delta |2:   use 'BurntSushi/ripgre |3:   use 'BurntSushi/ripgre |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:   use 'BurntSushi/ripgre |3:   use 'BurntSushi/ripgre |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use 'BurntSushi/ripgre |3:   use 'BurntSushi/ripgre |4:   use 'BurntSushi/ripgre |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use 'BurntSushi/ripgre |3:   use 'BurntSushi/ripgre |4:   use 'BurntSushi/ripgre |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use 'BurntSushi/ripgre |3:   use 'BurntSushi/ripgre |4:   use 'BurntSushi/ripgre |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use 'BurntSushi/ripgre |3:   use 'BurntSushi/ripgre |4:   use 'BurntSushi/ripgre |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:    |3:    |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:    |3:    |4:    |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' } |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' } |4:    |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:  } |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |4:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' } |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |4:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |4:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |4:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |4:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |4:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |4:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: , run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use {'nvim-telescope/telescope-fzf-native.nvim', |4:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: elescope-fzf-native.nvim', |3:   use 'BurntSushi/ripgrep |4:   use {'nvim-telescope/telescope-fzf-native.nvim', |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: elescope-fzf-native.nvim', |3:   use {'nvim-telescope/telescope-fzf-native.nvim', |4:   use 'BurntSushi/ripgrep |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: , run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |4:   use {'nvim-telescope/telescope-fzf-native.nvim', |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: elescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |3:   use 'justinmk/vim-sneak |4:   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:      |3:      |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:      |3:      |4:      |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2:    |3:       |4:      |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: delta |2:      |3:      |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2: requ |3: requ |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: requ |3: requ |4: requ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: requ |3:  |4: requ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: require("telescope").load_extension "file_browser |3: require("telescope").load_extension "file_browser |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2: require("telescope").load_extension " |3: require("telescope").load_extension " |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: require("telescope").load_extension " |3: require("telescope").load_extension " |4: require("telescope").load_extension " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: "f |3: require("telescope").load_extension "f |4: require("telescope").load_extension " |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: require("telescope").load_extension "f |3: require("telescope").load_extension "f |4: require("telescope").load_extension "f |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: fz |3: require("telescope").load_extension "fz |4: require("telescope").load_extension "f |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: zf |3: require("telescope").load_extension "fzf |4: require("telescope").load_extension "fz |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: require("telescope").load_extension "fzf |3: require("telescope").load_extension "fzf |4: require("telescope").load_extension "fzf |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: require("telescope").load_extension "fzf |3: require("telescope").load_extension "fzf |4: require("telescope").load_extension "fzf |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: delta |2: require("telescope").load_extension "fz |3: require("telescope").load_extension "fz |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2: require("telescope").load_extension "fz |3: require("telescope").load_extension "fz |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   |3:   |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:    |3:    |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:    |3:    |4:    |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  use |3:   use |4:    |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use |3:   use |4:   use |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:   Use |3:   Use |4:   Use |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: e  |3:   Use  |4:   Use |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   Use  |3:   Use  |4:   Use  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: e  |3:   Use |4:   Use  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: se |3:   Us |4:   Use |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: Us |3:   U |4:   Us |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  U |3:    |4:   U |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2:  us |3:   us |4:    |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: se  |3:   use  |4:   us |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use  |3:   use  |4:   use  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2:  ' |3:   use ' |4:   use  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: 'l |3:   use 'l |4:   use ' |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: ler |3:   use 'ler |4:   use 'l |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'ler |3:   use 'ler |4:   use 'ler |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: rv |3:   use 'lerv |4:   use 'ler |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'lerv |3:   use 'lerv |4:   use 'lerv |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: va |3:   use 'lerva |4:   use 'lerv |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'lerva |3:   use 'lerva |4:   use 'lerva |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ag |3:   use 'lervag |4:   use 'lerva |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: g/ |3:   use 'lervag/ |4:   use 'lervag |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'lervag/ |3:   use 'lervag/ |4:   use 'lervag/ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: /vim |3:   use 'lervag/vim |4:   use 'lervag/ |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'lervag/vim |3:   use 'lervag/vim |4:   use 'lervag/vim |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ms |3:   use 'lervag/vims |4:   use 'lervag/vim |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: se |3:   use 'lervag/vimse |4:   use 'lervag/vims |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'lervag/vimse |3:   use 'lervag/vimse |4:   use 'lervag/vimse |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ex |3:   use 'lervag/vimsex |4:   use 'lervag/vimse |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'lervag/vimsex |3:   use 'lervag/vimsex |4:   use 'lervag/vimsex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ex |3:   use 'lervag/vimse |4:   use 'lervag/vimsex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: se |3:   use 'lervag/vims |4:   use 'lervag/vimse |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ms |3:   use 'lervag/vim |4:   use 'lervag/vims |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'lervag/vim |3:   use 'lervag/vim |4:   use 'lervag/vim |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: mt |3:   use 'lervag/vimt |4:   use 'lervag/vim |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: te |3:   use 'lervag/vimte |4:   use 'lervag/vimt |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ex |3:   use 'lervag/vimtex |4:   use 'lervag/vimte |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:   use 'lervag/vimtex |3:   use 'lervag/vimtex |4:   use 'lervag/vimtex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: x' |3:   use 'lervag/vimtex' |4:   use 'lervag/vimtex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: delta |2:   use 'lervag/vimtex |3:   use 'lervag/vimtex |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:   use 'lervag/vimtex |3:   use 'lervag/vimtex |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use 'lervag/vimtex |3:   use 'lervag/vimtex |4:   use 'lervag/vimtex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use 'lervag/vimtex |3:   use 'lervag/vimtex |4:   use 'lervag/vimtex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   use 'lervag/vimtex |3:   use 'lervag/vimtex |4:   use 'lervag/vimtex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:   use 'lervag/vimtex |3:  |4:   use 'lervag/vimtex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: vim |3: vim |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: vim |3: vim |4: vim |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: m. |3: vim. |4: vim |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: vim. |3: vim. |4: vim. |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: .c |3: vim.c |4: vim. |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: vim.c |3: vim.c |4: vim.c |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: cm |3: vim.cm |4: vim.c |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: vim.cm |3: vim.cm |4: vim.cm |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: md |3: vim.cmd |4: vim.cm |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: vim.cmd |3: vim.cmd |4: vim.cmd |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: d( |3: vim.cmd( |4: vim.cmd |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: vim.cmd( |3: vim.cmd( |4: vim.cmd( |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ([ |3: vim.cmd([ |4: vim.cmd( |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: [[ |3: vim.cmd([[ |4: vim.cmd([ |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: vim.cmd([[ |3: vim.cmd([[ |4: vim.cmd([[ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: calleader = "," |3: let maplocalleader = "," |4: vim.cmd([[ |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2: " following line. The d |3: " following line. The d |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2: vim.cmd([[" This is nec |3: vim.cmd([[" This is nec |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: vim.cmd([[" This is nec |3: vim.cmd([[" This is nec |4: vim.cmd([[" This is nec |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: ces |3: vim.cmd([[" This is neces |4: vim.cmd([[" This is nec |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: --vim.highlight.create('MyHi', {ctermfg=246, guifg=SeaGreen, guibg=#444444},  |3: --vim.highlight.create('MyHi', {ctermfg=246, guifg=SeaGreen, guibg=#444444},  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: 4},  |3: --vim.highlight.create('MyHi', {ctermfg=246, guifg=SeaGreen, guibg=#444444 |4: --vim.highlight.create('MyHi', {ctermfg=246, guifg=SeaGreen, guibg=#444444},  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: ate('MyHi', {ctermfg=246, guifg=SeaGreen, guibg=#444444 |3:   use 'lervag/vimtex |4: --vim.highlight.create('MyHi', {ctermfg=246, guifg=SeaGreen, guibg=#444444 |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  neces |3: vim.cmd([[" This is neces |4:   use 'lervag/vimtex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " Note that most plugin m |3: " Note that most plugin m |4: vim.cmd([[" This is neces |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  m |3: filetype plugin indent o |4: " Note that most plugin m |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: filetype plugin indent o |3:  |4: filetype plugin indent o |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " This enables Vim's and  |3: " This enables Vim's and  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " VimTeX features will no |3: " VimTeX features will no |4: " This enables Vim's and  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: eX features will no |3: " info) |4: " VimTeX features will no |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  enabl |3: syntax enabl |4: " info) |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: syntax enabl |3:  |4: syntax enabl |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " Viewer options: One may |3: " Viewer options: One may |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: ns: One may |3: " viewer method |4: " Viewer options: One may |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: iew_method  |3: let g:vimtex_view_method  |4: " viewer method |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: let g:vimtex_view_method  |3:  |4: let g:vimtex_view_method  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " Or with a generic inter |3: " Or with a generic inter |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: let g:vimtex_view_general |3: let g:vimtex_view_general |4: " Or with a generic inter |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: let g:vimtex_view_general |3:  |4: let g:vimtex_view_general |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: - |3: - |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: - |3: - |4: - |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: -- |3: -- |4: - |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: -- |3: -- |4: -- |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2: l |3: l |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: - |3: - |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: -- |3: -- |4: - |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: -- |3: -- |4: -- |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2: v |3: v |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2: " |3: " |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: f |3: f |4: " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " |3: " |4: f |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " |3: " |4: " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " |3:  |4: " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: l |3: l |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: le |3: le |4: l |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: et g:vimtex_compiler_method = 'latexrun |3: let g:vimtex_compiler_method = 'latexrun |4: le |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: un |3: let g:vimtex_compiler_method = 'latexru |4: let g:vimtex_compiler_method = 'latexrun |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: un |3: let g:vimtex_compiler_method = 'latexrun |4: let g:vimtex_compiler_method = 'latexru |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2: let g:vimtex_compiler_method = 'latexrun |3: let g:vimtex_compiler_method = 'latexrun |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_compiler_method = 'latexrun |3: let g:vimtex_compiler_method = 'latexrun |4: let g:vimtex_compiler_method = 'latexrun |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: run |3: let g:vimtex_compiler_method = 'latexr |4: let g:vimtex_compiler_method = 'latexrun |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_compiler_method = 'latexr |3: let g:vimtex_compiler_method = 'latexr |4: let g:vimtex_compiler_method = 'latexr |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: xr |3: let g:vimtex_compiler_method = 'latex |4: let g:vimtex_compiler_method = 'latexr |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: xm |3: let g:vimtex_compiler_method = 'latexm |4: let g:vimtex_compiler_method = 'latex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: mk |3: let g:vimtex_compiler_method = 'latexmk |4: let g:vimtex_compiler_method = 'latexm |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2: let maplocalleader = ","]] |3: let maplocalleader = ","]] |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: let maplocalleader = ","]] |3: let maplocalleader = ","]] |4: let maplocalleader = ","]] |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " following line. The defa |3: " following line. The defa |4: let maplocalleader = ","]] |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: fa |3: " following line. The def |4: " following line. The defa |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: let maplocalleader = ","] |3: let maplocalleader = ","] |4: " following line. The def |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: "] |3: let maplocalleader = "," |4: let maplocalleader = ","] |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: ," |3: let maplocalleader = ", |4: let maplocalleader = "," |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2: let maplocalleader = ", |3: let maplocalleader = ", |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let maplocalleader = ", |3: let maplocalleader = ", |4: let maplocalleader = ", |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: ", |3: let maplocalleader = " |4: let maplocalleader = ", |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: "  |3: let maplocalleader = "  |4: let maplocalleader = " |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let maplocalleader = "  |3: let maplocalleader = "  |4: let maplocalleader = "  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: delta |2: let maplocalleader = " |3: let maplocalleader = " |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2: let maplocalleader = " |3: let maplocalleader = " |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: " following line. The  |3: " following line. The  |4: let maplocalleader = " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: let maplocalleader = " |3: let maplocalleader = " |4: " following line. The  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: "  |3: let maplocalleader = "  |4: let maplocalleader = " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: r |3: r |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: re |3: re |4: r |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: re |3: re |4: re |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: re |3: re |4: re |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: re |3: re |4: re |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: changed
+שׁ  |1: delta |2: require(" |3: require(" |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: mode:    |2: s
+שׁ  |1: async cleanup:  |2: s
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: insert enter
+שׁ  |1: delta |2: require("vim |3: require("vim |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: im |3: require("vi |4: require("vim |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: vi |3: require("v |4: require("vi |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: "v |3: require(" |4: require("v |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: "j |3: require("j |4: require(" |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: ja |3: require("ja |4: require("j |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: require("ja |3: require("ja |4: require("ja |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: an |3: require("jan |4: require("ja |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: an |3: require("ja |4: require("jan |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: am |3: require("jam |4: require("ja |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: mie |3: require("jamie |4: require("jam |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: e. |3: require("jamie. |4: require("jamie |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: .vim |3: require("jamie.vim |4: require("jamie. |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: mt |3: require("jamie.vimt |4: require("jamie.vim |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: te |3: require("jamie.vimte |4: require("jamie.vimt |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ex |3: require("jamie.vimtex |4: require("jamie.vimte |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ex |3: require("jamie.vimte |4: require("jamie.vimtex |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2: require("jamie.vimte |3: require("jamie.vimte |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:      |3:      |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:      |3:      |4:      |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2:  l |3:     l |4:      |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: le |3:     le |4:     l |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: et  |3:     let  |4:     le |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:     let  |3:     let  |4:     let  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2:  g |3:     let g |4:     let  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: g: |3:     let g: |4:     let g |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:     let g: |3:     let g: |4:     let g: |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: :vimtex_view_general_viewer='chrome' |3:     let g:vimtex_view_general_viewer='chrome' |4:     let g: |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: delta |2:     let g:vimtex_view_general_viewer='chrome |3:     let g:vimtex_view_general_viewer='chrome |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:     let g:vimtex_view_general_viewer='chrome |3:     let g:vimtex_view_general_viewer='chrome |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: l |3: l |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: l |3: l |4: l |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: le |3: le |4: l |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: et |3: let |4: le |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let |3: let |4: let |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: t  |3: let  |4: let |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  g |3: let g |4: let  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g |3: let g |4: let g |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: g: |3: let g: |4: let g |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g: |3: let g: |4: let g: |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: :vim |3: let g:vim |4: let g: |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: m_ |3: let g:vim_ |4: let g:vim |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vim_ |3: let g:vim_ |4: let g:vim_ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: let g:vim_ |3: let g:vim_ |4: let g:vim_ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: let g:vim_ |3: let g:vim_ |4: let g:vim_ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: let g:vim_ |3: let g:vim_ |4: let g:vim_ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: tex_view_general_viewer |3: let g:vimtex_view_general_viewer |4: let g:vim_ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: r  |3: let g:vimtex_view_general_viewer  |4: let g:vimtex_view_general_viewer |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_view_general_viewer  |3: let g:vimtex_view_general_viewer  |4: let g:vimtex_view_general_viewer  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2:  = |3: let g:vimtex_view_general_viewer = |4: let g:vimtex_view_general_viewer  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_view_general_viewer = |3: let g:vimtex_view_general_viewer = |4: let g:vimtex_view_general_viewer = |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: =  |3: let g:vimtex_view_general_viewer =  |4: let g:vimtex_view_general_viewer = |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_view_general_viewer =  |3: let g:vimtex_view_general_viewer =  |4: let g:vimtex_view_general_viewer =  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2:  ' |3: let g:vimtex_view_general_viewer = ' |4: let g:vimtex_view_general_viewer =  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2: 'c |3: let g:vimtex_view_general_viewer = 'c |4: let g:vimtex_view_general_viewer = ' |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_view_general_viewer = 'c |3: let g:vimtex_view_general_viewer = 'c |4: let g:vimtex_view_general_viewer = 'c |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ch |3: let g:vimtex_view_general_viewer = 'ch |4: let g:vimtex_view_general_viewer = 'c |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_view_general_viewer = 'ch |3: let g:vimtex_view_general_viewer = 'ch |4: let g:vimtex_view_general_viewer = 'ch |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: hr |3: let g:vimtex_view_general_viewer = 'chr |4: let g:vimtex_view_general_viewer = 'ch |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_view_general_viewer = 'chr |3: let g:vimtex_view_general_viewer = 'chr |4: let g:vimtex_view_general_viewer = 'chr |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: ro |3: let g:vimtex_view_general_viewer = 'chro |4: let g:vimtex_view_general_viewer = 'chr |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_view_general_viewer = 'chro |3: let g:vimtex_view_general_viewer = 'chro |4: let g:vimtex_view_general_viewer = 'chro |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: om |3: let g:vimtex_view_general_viewer = 'chrom |4: let g:vimtex_view_general_viewer = 'chro |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_view_general_viewer = 'chrom |3: let g:vimtex_view_general_viewer = 'chrom |4: let g:vimtex_view_general_viewer = 'chrom |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: me |3: let g:vimtex_view_general_viewer = 'chrome |4: let g:vimtex_view_general_viewer = 'chrom |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: let g:vimtex_view_general_viewer = 'chrome |3: let g:vimtex_view_general_viewer = 'chrome |4: let g:vimtex_view_general_viewer = 'chrome |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2: let g:vimtex_view_method = 'zathura |3: let g:vimtex_view_method = 'zathura |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: " |3: " |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: " |3: " |4: " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: " |3:  |4: " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex' |3: let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex' |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: x' |3: let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex |4: let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex' |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2: let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex |3: let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2: " |3: " |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: " |3: " |4: " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: " |3:  |4: " |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: delta |2: " |3: " |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: changed
+שׁ  |1: delta |2: " |3: " |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: delta |2: " |3: " |4: " |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: i
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:   |3:   |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     au CursorMoved * :silent e |3:     au CursorMoved * :silent e |4:   |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: u CursorMoved * :silent e |3:     au |4:     au CursorMoved * :silent e |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: ugroup highlight_current_ |3:     augroup highlight_current_ |4:     au |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     -- augroup highlight_curre |3:     -- augroup highlight_curre |4:     augroup highlight_current_ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     augroup highlight_current_ |3:     augroup highlight_current_ |4:     -- augroup highlight_curre |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: t_ |3:     augroup highlight_current |4:     augroup highlight_current_ |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: nt |3:     augroup highlight_curren |4:     augroup highlight_current |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: en |3:     augroup highlight_curre |4:     augroup highlight_curren |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: re |3:     augroup highlight_curr |4:     augroup highlight_curre |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: group highlight_curr |3:     aug |4:     augroup highlight_curr |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     aug |3:     aug |4:     aug |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     :co |3:     :co |4:     aug |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     aug |3:     aug |4:     :co |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     :se |3:     :se |4:     aug |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: se |3:     au |4:     :se |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: ug |3:     aug |4:     au |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: ug |3:     au |4:     aug |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: au |3:     a |4:     au |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:  a |3:      |4:     a |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:    |3:     |4:      |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     |3:     |4:     |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:    |3: ]] |4:     |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:    |3:     |4: ]] |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     |3:     |4:     |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: vim |3: vim |4:     |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: vim |3: vim |4: vim |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     |3:     |4: vim |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2:     |3:     |4:     |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: vim |3: vim |4:     |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: delta |2: vim |3: vim |4: vim |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3:  |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2: vim.opt.autochdir = true |3: vim.opt.autochdir = true |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ue |3: vim.opt.autochdir = tru |4: vim.opt.autochdir = true |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ru |3: vim.opt.autochdir = tr |4: vim.opt.autochdir = tru |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: tr |3: vim.opt.autochdir = t |4: vim.opt.autochdir = tr |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  t |3: vim.opt.autochdir =  |4: vim.opt.autochdir = t |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  f |3: vim.opt.autochdir = f |4: vim.opt.autochdir =  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: fa |3: vim.opt.autochdir = fa |4: vim.opt.autochdir = f |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: al |3: vim.opt.autochdir = fal |4: vim.opt.autochdir = fa |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ls |3: vim.opt.autochdir = fals |4: vim.opt.autochdir = fal |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: se |3: vim.opt.autochdir = false |4: vim.opt.autochdir = fals |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2: vim.opt.autochdir = fals |3: vim.opt.autochdir = fals |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: delta |2:  |3: 
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = 0,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:     under_cursor = true |3:     under_cursor = true |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ue |3:     under_cursor = tru |4:     under_cursor = true |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: tru |3:     under_cursor = t |4:     under_cursor = tru |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  t |3:     under_cursor =  |4:     under_cursor = t |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  f |3:     under_cursor = f |4:     under_cursor =  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: fa |3:     under_cursor = fa |4:     under_cursor = f |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: al |3:     under_cursor = fal |4:     under_cursor = fa |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: ls |3:     under_cursor = fals |4:     under_cursor = fal |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2: se |3:     under_cursor = false |4:     under_cursor = fals |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2:     -- under_cursor: wh |3:     -- under_cursor: wh |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: insert enter
+שׁ  |1: changed
+שׁ  |1: delta |2:     delay = 1 |3:     delay = 1 |4:  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: delta |2:  1 |3:     delay =  |4:     delay = 1 |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: changed
+שׁ  |1: changed
+שׁ  |1: delta |2:  7 |3:     delay = 7 |4:     delay =  |5: {}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:710: in function ''
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+שׁ  |1: delta |2:     -- filet |3:     -- filet |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+שׁ  |1: mode:    |2: n
+שׁ  |1: Insert leave cleanup
+שׁ  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:340: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:686: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+שׁ  |1: delta |2:     -- provid |3:     -- provid |4:  |5: {
+  trigger = "CursorHold"
+}
+
+שׁ  |1: hover not supported
+שׁ  |1: lsp cap:  |2: false |3: false
+שׁ  |1: signature capabilities not enabled
+שׁ  |1: Insert leave cleanup |2: n
+שׁ  |1: mode:    |2: n
+שׁ  |1: close timer
+שׁ  |1: async cleanup:  |2: n
+שׁ  |1: cleanup vt |2: 13
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: skip: disabled filetype |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: mode:    |2: n
+󰘫  |1: Insert leave cleanup
+󰘫  |1: stack traceback:
+	...er/start/lsp_signature.nvim/lua/lsp_signature/helper.lua:341: in function 'cleanup_async'
+	...cker/start/lsp_signature.nvim/lua/lsp_signature/init.lua:811: in function 'on_InsertLeave'
+	[string ":lua"]:1: in main chunk
+󰘫  |1: async cleanup:  |2: n
+󰘫  |1: cleanup vt |2: 13
+󰘫  |1: hover not supported
+󰘫  |1: lsp cap:  |2: false |3: false
+󰘫  |1: skip: signature capabilities not enabled
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: mode:    |2: n
+󰘫  |1: close timer
+󰘫  |1: hover not supported
+󰘫  |1: lsp cap:  |2: false |3: false
+󰘫  |1: skip: signature capabilities not enabled
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: hover not supported
+󰘫  |1: lsp cap:  |2: false |3: false
+󰘫  |1: skip: signature capabilities not enabled
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: hover not supported
+󰘫  |1: lsp cap:  |2: false |3: false
+󰘫  |1: skip: signature capabilities not enabled
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: hover not supported
+󰘫  |1: lsp cap:  |2: false |3: false
+󰘫  |1: skip: signature capabilities not enabled
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: hover not supported
+󰘫  |1: lsp cap:  |2: false |3: false
+󰘫  |1: skip: signature capabilities not enabled
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: hover not supported
+󰘫  |1: lsp cap:  |2: false |3: false
+󰘫  |1: skip: signature capabilities not enabled
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: skip: disabled filetype |2: 
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: no active client
+󰘫  |1: Insert leave cleanup |2: n
+󰘫  |1: {
+  always_trigger = false,
+  bind = true,
+  bufnr = 0,
+  check_completion_visible = true,
+  close_timeout = 4000,
+  cursorhold_update = true,
+  debug = true,
+  doc_lines = 5,
+  extra_trigger_chars = {},
+  fix_pos = false,
+  floating_window = true,
+  floating_window_above_cur_line = false,
+  floating_window_off_x = 1,
+  floating_window_off_y = <function 1>,
+  handler_opts = {
+    border = "rounded"
+  },
+  hi_parameter = "MoreMsg",
+  hint_enable = true,
+  hint_inline = <function 2>,
+  hint_prefix = "  ",
+  hint_scheme = "Comment",
+  log_path = "debug_log_file_path",
+  mainwin = 0,
+  max_height = 50,
+  max_width = 200,
+  padding = "",
+  shadow_blend = 36,
+  shadow_guibg = "Black",
+  timer_interval = 200,
+  use_lspsaga = false,
+  verbose = false,
+  wrap = true,
+  zindex = 200
+}
+
+󰘫  |1: hover not supported
+󰘫  |1: lsp cap:  |2: false |3: false
+󰘫  |1: skip: signature capabilities not enabled
+󰘫  |1: Insert leave cleanup |2: n
