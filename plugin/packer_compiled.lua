@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/jsmith49/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/jsmith49/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/jsmith49/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/jsmith49/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/jsmith49/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/jsmith49/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?.lua;/home/jsmith49/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?/init.lua;/home/jsmith49/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?.lua;/home/jsmith49/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/jsmith49/.cache/nvim/packer_hererocks/2.1.1692716794/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -79,10 +79,10 @@ _G.packer_plugins = {
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["bufferline.nvim"] = {
+  catppuccin = {
     loaded = true,
-    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
-    url = "https://github.com/akinsho/bufferline.nvim"
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -104,15 +104,10 @@ _G.packer_plugins = {
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["copilot-cmp"] = {
+  cmp_luasnip = {
     loaded = true,
-    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/copilot-cmp",
-    url = "https://github.com/zbirenbaum/copilot-cmp"
-  },
-  ["copilot.lua"] = {
-    loaded = true,
-    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/copilot.lua",
-    url = "https://github.com/zbirenbaum/copilot.lua"
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["cybu.nvim"] = {
     loaded = true,
@@ -150,9 +145,12 @@ _G.packer_plugins = {
     url = "https://github.com/onsails/lspkind.nvim"
   },
   ["lspsaga.nvim"] = {
+    config = { "\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\flspsaga\frequire\0" },
+    load_after = {},
     loaded = true,
-    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
-    url = "https://github.com/glepnir/lspsaga.nvim"
+    needs_bufread = false,
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/opt/lspsaga.nvim",
+    url = "https://github.com/nvimdev/lspsaga.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -204,11 +202,6 @@ _G.packer_plugins = {
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
-  ["nvim-ts-rainbow"] = {
-    loaded = true,
-    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
-    url = "https://github.com/p00f/nvim-ts-rainbow"
-  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -228,6 +221,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/ripgrep",
     url = "https://github.com/BurntSushi/ripgrep"
+  },
+  ["rust-tools.nvim"] = {
+    loaded = true,
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
+    url = "https://github.com/simrat39/rust-tools.nvim"
+  },
+  sonokai = {
+    loaded = true,
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
   },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
@@ -319,6 +322,11 @@ _G.packer_plugins = {
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/vim-sql-syntax",
     url = "https://github.com/shmup/vim-sql-syntax"
   },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
+  },
   vimtex = {
     loaded = true,
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/vimtex",
@@ -328,6 +336,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
+  },
+  ["vscode-langservers-extracted"] = {
+    loaded = true,
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/vscode-langservers-extracted",
+    url = "https://github.com/hrsh7th/vscode-langservers-extracted"
   },
   ["which-key.nvim"] = {
     loaded = true,
@@ -342,6 +355,15 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Load plugins in order defined by `after`
+time([[Sequenced loading]], true)
+vim.cmd [[ packadd nvim-lspconfig ]]
+vim.cmd [[ packadd lspsaga.nvim ]]
+
+-- Config for: lspsaga.nvim
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\flspsaga\frequire\0", "config", "lspsaga.nvim")
+
+time([[Sequenced loading]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

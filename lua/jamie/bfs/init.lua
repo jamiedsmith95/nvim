@@ -90,7 +90,7 @@ function M.closeBufNum(win)
     vim.api.nvim_notify("Cannot close current buffer!", 3, {})
   end
 
-  vim.wo.number = false
+  vim.wo.number = true
   vim.wo.relativenumber = false
 end
 

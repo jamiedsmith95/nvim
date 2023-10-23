@@ -35,34 +35,37 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'nvim-lua/plenary.nvim'
   use {
-    'nvim-telescope/telescope.nvim', branch = '0.1.x',
- --or                            , branch = '0.1.x',
+    'nvim-telescope/telescope.nvim', branch = '0.1.x',-- commit ='4cccb6f494eb255b32a290d37c35ca12584c74d0'
    requires = { {'nvim-lua/plenary.nvim'} }
   }
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'BurntSushi/ripgrep'
   use 'lervag/vimtex'
+  use 'mg979/vim-visual-multi'
+  use 'simrat39/rust-tools.nvim'
   use 'justinmk/vim-sneak'
   use 'nvim-telescope/telescope-fzy-native.nvim'
-  -- use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
-  use 'onsails/lspkind.nvim'
+  --use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+  use {'onsails/lspkind.nvim'}
   use { "hrsh7th/nvim-cmp" } -- The completion plugin
-  use "kyazdani42/nvim-web-devicons"
-  use 'ghillb/cybu.nvim'
+  use {"kyazdani42/nvim-web-devicons"}
+  use {'ghillb/cybu.nvim'}
   use { "hrsh7th/cmp-buffer" } -- buffer completions
-  use 'romainl/vim-qf'
+  use {'romainl/vim-qf'}
+  use 'Mofiqul/dracula.nvim'
   use { "hrsh7th/cmp-path" } -- path completions
+  use { "hrsh7th/vscode-langservers-extracted" }
   use {"shmup/vim-sql-syntax"}
---  use { "saadparwaiz1/cmp_luasnip" } -- snippet completions
+  use { "saadparwaiz1/cmp_luasnip" } -- snippet completions
   use { "hrsh7th/cmp-nvim-lsp" } -- lsp completions
   use { "hrsh7th/cmp-nvim-lua" } -- lua completions
 --  use { "rcarriga/cmp-dap" }
   -- snippets
   use { "L3MON4D3/LuaSnip" } --snippet engine
   use { "rafamadriz/friendly-snippets" } -- a bunch of snippets to use
---  use { "catppuccin/nvim", as = "catppuccin" }
+  use { "catppuccin/nvim", as = "catppuccin" }
+  use "sainnhe/sonokai"
   use 'jacoborus/tender'
-  use 'Mofiqul/dracula.nvim'
   use 'voldikss/vim-floaterm'
   use 'nacro90/numb.nvim'
   use 'andymass/vim-matchup'
@@ -73,8 +76,8 @@ return require('packer').startup(function(use)
   use 'folke/which-key.nvim'
   use 'vuciv/vim-bujo'
   use 'tpope/vim-abolish'
-  use "zbirenbaum/copilot-cmp"
-  use { "zbirenbaum/copilot.lua" }
+  -- use "zbirenbaum/copilot-cmp"
+  -- use { "zbirenbaum/copilot.lua" }
   use 'tpope/vim-repeat'
   use 'tpope/vim-fugitive'
   use 'machakann/vim-highlightedyank'
@@ -91,7 +94,14 @@ return require('packer').startup(function(use)
   use { "neovim/nvim-lspconfig" } -- enable LSP
   use { "jose-elias-alvarez/null-ls.nvim" } -- for formatters and linters
   use { "RRethy/vim-illuminate" } -- LSP Higlight
-  use { "glepnir/lspsaga.nvim" } -- LSP UI
+  use ({
+    'nvimdev/lspsaga.nvim',
+    after = 'nvim-lspconfig',
+    config = function()
+        require('lspsaga').setup({})
+    end,
+})
+--  use { "glepnir/lspsaga.nvim" } -- LSP UI
   use { "williamboman/mason.nvim" }
   use { "williamboman/mason-lspconfig.nvim" }
   use { "ray-x/lsp_signature.nvim" }
@@ -114,5 +124,5 @@ return require('packer').startup(function(use)
   -- use 'nrsh7th/cmp-cmp'
 
   use {"nvim-treesitter/nvim-treesitter",run = ":TSUpdate",}
-  use 'p00f/nvim-ts-rainbow'
+  -- use 'p00f/nvim-ts-rainbow'
 end)

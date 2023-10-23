@@ -1,20 +1,25 @@
+require("jamie.setting")
 require('jamie.packer')
 require('telescope').setup()
-require("jamie.set")
+require("jamie.lsp")
+--require("jamie.dap")
 require("jamie.telescope")
+-- require("jamie.rtools")
 require("jamie.vimtex")
 require('jamie.tabnine')
+require('jamie.true-zen')
 require("jamie.treesitter")
-require("jamie.bufferline")
-require("illuminate")
+-- require("jamie.bufferline")
+require("jamie.illuminate")
 require("jamie.cmp")
 --require("jamie.lspkind")
 require("jamie.cbyu")
---require("jamie.lsp")
 require("jamie.autopairs")
 require("jamie.navic")
-require("jamie.copilot")
+-- require("jamie.copilot")
 -- require("jamie.commands")
 require("jamie.remap")
 vim.opt.termguicolors = true
-require("bufferline").setup{}
+-- require("bufferline").setup{}
+require'lspconfig'.tsserver.setup {}
+

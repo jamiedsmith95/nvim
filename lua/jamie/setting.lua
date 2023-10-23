@@ -1,10 +1,11 @@
-local set = vim.opt
+local o = vim.opt
 vim.cmd("colorscheme dracula")
+
 vim.opt.nu = true
 vim.opt.shiftwidth = 2
-vim.opt.relativenumber = true
+--vim.opt.relativenumber = true
 vim.opt.ignorecase = true
-vim.lazyredraw = true
+vim.opt.lazyredraw = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.autochdir = false
 vim.opt.completeopt = { "menuone", "noselect", "menu" }
@@ -20,13 +21,11 @@ vim.opt.smartindent = true
 vim.opt.pumblend = 25
 vim.opt.wrap = true
 vim.g.mapleader = " "
-vim.opt.mouse = ""
-
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 1
 --vim.highlight.create('MyHi', {ctermfg=246, guifg=SeaGreen, guibg=#444444}, false)
 
---:autocmd CursorMoved * silent! exe printf('match TelescopeMultiSelection /\<%s\>/', expand('<cword>'))
+
 --hi myhi ctermfg=246 ctermbg=Search guibg=#444444
 vim.cmd([[
     au FileType qf call AdjustWindowHeight(1, 1)
@@ -36,6 +35,8 @@ vim.cmd([[
     hi VisualNc guifg=#B83998 guibg=#ABB2BF
     :command! SavePlace :normal y"aT^ y"A<space> y"At$
     set noswapfile
+    set mouse=""
+    set signcolumn=yes:1
     function! ToWhat()
         let c = nr2char(getchar())
         execute 'normal! F'.c'<CR>n'
@@ -47,7 +48,7 @@ vim.cmd([[
         startinsert
     endfunction
     function! Toword()
-        execute 'normal! /\*<CR>2n'
+        execute 'normal! *<CR>2n'
         startinsert
     endfunction
       

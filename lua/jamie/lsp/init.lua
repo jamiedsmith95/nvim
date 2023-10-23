@@ -1,5 +1,6 @@
 M = {}
-local status_ok, _ = pcall(require, "lspconfig")
+-- local status_ok, _ = pcall(require, "lspconfig.config")
+local status_ok, _ = pcall(require, "mason-lspconfig")
 if not status_ok then
   return
 end
@@ -24,11 +25,16 @@ M.server_capabilities = function()
   end)
 end
 
+require("jamie.lsp.mason")
 require "jamie.lsp.lsp-signature"
 -- require "jamie.lsp.lsp-installer"
-require("jamie.lsp.mason")
 require("jamie.lsp.handlers").setup()
 require "jamie.lsp.null-ls"
+-- require "jamie.lsp.lsp-signature"
+-- -- require "jamie.lsp.lsp-installer"
+-- require("jamie.lsp.mason")
+-- require("jamie.lsp.handlers").setup()
+-- require "jamie.lsp.null-ls"
 
 local l_status_ok, lsp_lines = pcall(require, "lsp_lines")
 if not l_status_ok then
