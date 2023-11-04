@@ -41,15 +41,21 @@ return require('packer').startup(function(use)
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'BurntSushi/ripgrep'
   use 'lervag/vimtex'
+  use 'morhetz/gruvbox'
   use 'mg979/vim-visual-multi'
   use 'simrat39/rust-tools.nvim'
+  use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
   use 'justinmk/vim-sneak'
   use 'nvim-telescope/telescope-fzy-native.nvim'
   --use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
   use {'onsails/lspkind.nvim'}
   use { "hrsh7th/nvim-cmp" } -- The completion plugin
-  use {"kyazdani42/nvim-web-devicons"}
+  -- use {"kyazdani42/nvim-web-devicons"}
   use {'ghillb/cybu.nvim'}
+  use 'nvim-tree/nvim-web-devicons'
   use { "hrsh7th/cmp-buffer" } -- buffer completions
   use {'romainl/vim-qf'}
   use 'Mofiqul/dracula.nvim'
@@ -86,7 +92,7 @@ return require('packer').startup(function(use)
   use 'vimwiki/vimwiki'
   use 'tpope/vim-commentary'
   use 'glepnir/dashboard-nvim'
-  use 'bling/vim-bufferline'
+  -- use 'bling/vim-bufferline'
   
 
 
@@ -94,13 +100,13 @@ return require('packer').startup(function(use)
   use { "neovim/nvim-lspconfig" } -- enable LSP
   use { "jose-elias-alvarez/null-ls.nvim" } -- for formatters and linters
   use { "RRethy/vim-illuminate" } -- LSP Higlight
-  use ({
-    'nvimdev/lspsaga.nvim',
-    after = 'nvim-lspconfig',
-    config = function()
-        require('lspsaga').setup({})
-    end,
-})
+  -- use ({
+  --   'nvimdev/lspsaga.nvim',
+  --   after = 'nvim-lspconfig',
+  --   config = function()
+  --       require('lspsaga').setup({})
+  --   end,
+-- })
 --  use { "glepnir/lspsaga.nvim" } -- LSP UI
   use { "williamboman/mason.nvim" }
   use { "williamboman/mason-lspconfig.nvim" }
@@ -124,5 +130,12 @@ return require('packer').startup(function(use)
   -- use 'nrsh7th/cmp-cmp'
 
   use {"nvim-treesitter/nvim-treesitter",run = ":TSUpdate",}
+  use {"nvim-treesitter/nvim-treesitter-context"}
+  use({
+  "nvim-treesitter/nvim-treesitter-textobjects",
+  after = "nvim-treesitter",
+  requires = "nvim-treesitter/nvim-treesitter",
+})
+
   -- use 'p00f/nvim-ts-rainbow'
 end)

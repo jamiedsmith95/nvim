@@ -1,10 +1,11 @@
 local o = vim.opt
-vim.cmd("colorscheme dracula")
+vim.cmd("colorscheme gruvbox")
 
 vim.opt.nu = true
 vim.opt.shiftwidth = 2
 --vim.opt.relativenumber = true
 vim.opt.ignorecase = true
+vim.opt.smartcase = true
 vim.opt.lazyredraw = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.autochdir = false
@@ -12,6 +13,7 @@ vim.opt.completeopt = { "menuone", "noselect", "menu" }
 vim.opt.termguicolors = true
 --vim.opt.cursorline = true
 vim.opt.splitright = true
+vim.opt.winbar = ''
 vim.opt.scrolloff = 9
 vim.opt.expandtab = true
 vim.opt.hidden = true

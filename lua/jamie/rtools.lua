@@ -37,10 +37,10 @@ local opts = {
       max_len_align = false,
 
       -- padding from the left if max_len_align is true
-      max_len_align_padding = 1,
+      max_len_align_padding = 3,
 
       -- whether to align to the extreme right or not
-      right_align = false,
+      right_align = true,
 
       -- padding from the right if right_align is true
       right_align_padding = 7,
@@ -54,16 +54,16 @@ local opts = {
 
       -- the border that is used for the hover window
       -- see vim.api.nvim_open_win()
-      border = {
-        { "╭", "FloatBorder" },
-        { "─", "FloatBorder" },
-        { "╮", "FloatBorder" },
-        { "│", "FloatBorder" },
-        { "╯", "FloatBorder" },
-        { "─", "FloatBorder" },
-        { "╰", "FloatBorder" },
-        { "│", "FloatBorder" },
-      },
+      -- border = {
+      --   { "╭", "FloatBorder" },
+      --   { "─", "FloatBorder" },
+      --   { "╮", "FloatBorder" },
+      --   { "│", "FloatBorder" },
+      --   { "╯", "FloatBorder" },
+      --   { "─", "FloatBorder" },
+      --   { "╰", "FloatBorder" },
+      --   { "│", "FloatBorder" },
+      -- },
 
       -- Maximal width of the hover window. Nil means no max.
       max_width = nil,

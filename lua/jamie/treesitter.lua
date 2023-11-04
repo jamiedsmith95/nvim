@@ -42,11 +42,11 @@ configs.setup {
     colors = {
       -- "#68a0b0",
       -- "#946EaD",
-      -- "#c7aA6D",
+       "#c7aA6D",
       "Gold",
       "Orchid",
       "DodgerBlue",
-      -- "Cornsilk",
+       "Cornsilk",
       -- "Salmon",
       -- "LawnGreen",
     },
