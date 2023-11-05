@@ -55,6 +55,16 @@ configs.setup {
   playground = {
     enable = true,
   },
+  textsubjects = {
+        enable = true,
+        prev_selection = ',', -- (Optional) keymap to select the previous selection
+        keymaps = {
+            ['.'] = 'textsubjects-smart',
+            [';'] = 'textsubjects-container-outer',
+            ['i;'] = 'textsubjects-container-inner',
+            ['i;'] = { 'textsubjects-container-inner', desc = "Select inside containers (classes, functions, etc.)" },
+        },
+    },
   textobjects = {
     select = {
       enable = true,
@@ -62,7 +72,6 @@ configs.setup {
       lookahead = true,
       keymaps = {
         -- You can use the capture groups defined in textobjects.scm
-        ["af"] = "@function.outer",
         ["if"] = "@function.inner",
         ["at"] = "@class.outer",
         ["it"] = "@class.inner",

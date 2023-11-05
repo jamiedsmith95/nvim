@@ -130,6 +130,11 @@ return require('packer').startup(function(use)
   -- use 'nrsh7th/cmp-cmp'
 
   use {"nvim-treesitter/nvim-treesitter",run = ":TSUpdate",}
+  use({
+  "nvim-treesitter/nvim-treesitter-textobjects",
+  after = "nvim-treesitter",
+  requires = "nvim-treesitter/nvim-treesitter",
+})
   use {"nvim-treesitter/nvim-treesitter-context"}
   use({
   "nvim-treesitter/nvim-treesitter-textobjects",
