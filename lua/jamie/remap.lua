@@ -18,16 +18,19 @@ inoremap("<up>", "<ESC><up>")
 inoremap("<down>", "<ESC><down>")
 
 
-
-
 inoremap("<C-s>", "<ESC>:%s//&/gc<left><left><left><left><left>")
+
 nnoremap("<leader>;", ":")
 nnoremap(",p", "p")
 nnoremap(",P", "P")
-nnoremap("<leader><left>", "<cmd>wincmd h<CR>")
-nnoremap("<leader><right>", "<cmd>wincmd l<CR>")
-nnoremap("<leader><up>", "<cmd>wincmd k<CR>")
-nnoremap("<leader><down>", "<cmd>wincmd j<CR>")
+nnoremap("<leader><left>", "<cmd>TmuxNavigateLeft<CR>")
+nnoremap("<leader><right>", "<cmd>TmuxNavigateRight<CR>")
+nnoremap("<leader><up>", "<cmd>TmuxNavigateUp<CR>")
+nnoremap("<leader><down>", "<cmd>TmuxNavigateDown<CR>")
+-- nnoremap("<leader><left>", "<cmd>wincmd h<CR>")
+-- nnoremap("<leader><right>", "<cmd>wincmd l<CR>")
+-- nnoremap("<leader><up>", "<cmd>wincmd k<CR>")
+-- nnoremap("<leader><down>", "<cmd>wincmd j<CR>")
 nnoremap("<leader>v", "<cmd>vs<CR>")
 nnoremap("<leader>h", "<cmd>split<CR>")
 nnoremap("<leader>l", "<cmd>on<CR>")

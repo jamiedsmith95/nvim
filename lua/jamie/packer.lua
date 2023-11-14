@@ -33,6 +33,7 @@ end
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+  use 'christoomey/vim-tmux-navigator'
   use 'nvim-lua/plenary.nvim'
   use {
     'nvim-telescope/telescope.nvim', branch = '0.1.x',-- commit ='4cccb6f494eb255b32a290d37c35ca12584c74d0'
@@ -130,11 +131,6 @@ return require('packer').startup(function(use)
   -- use 'nrsh7th/cmp-cmp'
 
   use {"nvim-treesitter/nvim-treesitter",run = ":TSUpdate",}
-  use({
-  "nvim-treesitter/nvim-treesitter-textobjects",
-  after = "nvim-treesitter",
-  requires = "nvim-treesitter/nvim-treesitter",
-})
   use {"nvim-treesitter/nvim-treesitter-context"}
   use({
   "nvim-treesitter/nvim-treesitter-textobjects",

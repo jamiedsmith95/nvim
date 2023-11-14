@@ -19,6 +19,7 @@ local servers = {
   "tflint",
   "terraformls",
   "tsserver",
+  "gopls",
 --  "pyright",
   "yamlls",
   "bashls",
@@ -96,6 +97,16 @@ for _, server in pairs(servers) do
   if server == "tsserver" then
     local tsserver_opts = require "jamie.lsp.settings.tsserver"
     opts = vim.tbl_deep_extend("force", tsserver_opts, opts)
+  end
+
+  if server == "gopls" then
+    local goopts = require "jamie.lsp.settings.goopts"
+    opts = vim.tbl_deep_extend("force", goopts, opts)
+  end
+
+  if server == "kotlin-language-server" then
+    local kotlin_opts = require "jamie.lsp.settings.kotlin"
+    opts = vim.tbl_deep_extend("force", kotlin_opts, opts)
   end
 
   if server == "pyright" then
