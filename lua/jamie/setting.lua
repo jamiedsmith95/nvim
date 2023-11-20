@@ -1,12 +1,15 @@
 local o = vim.opt
+vim.cmd("let g:gruvbox_transparent_bg = '1'")
 vim.cmd("colorscheme gruvbox")
+vim.cmd("let g:gruvbox_transparent_bg = '1'")
+
 
 vim.opt.nu = true
 vim.opt.shiftwidth = 2
 --vim.opt.relativenumber = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
-vim.opt.lazyredraw = true
+vim.opt.lazyredraw = false
 vim.opt.clipboard = "unnamedplus"
 vim.opt.autochdir = false
 vim.opt.completeopt = { "menuone", "noselect", "menu" }

@@ -1,8 +1,10 @@
+require("jamie.oil")
 require("jamie.setting")
 require("jamie.lualine")
 require('jamie.packer')
 require('telescope').setup()
 require("jamie.lsp")
+require("jamie.webtools")
 --require("jamie.dap")
 require("jamie.telescope")
 require("jamie.rtools")
@@ -21,10 +23,10 @@ require("jamie.autopairs")
 -- require("jamie.copilot")
 -- require("jamie.commands")
 require("jamie.remap")
+require('jamie.noice')
 vim.opt.termguicolors = true
 -- require("bufferline").setup{}
 require'lspconfig'.tsserver.setup {}
-
 local rt = require("rust-tools")
 
 rt.setup({

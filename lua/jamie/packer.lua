@@ -33,7 +33,14 @@ end
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+  use {
+    'folke/noice.nvim',
+    requires = {'MunifTanjim/nui.nvim', 'rcarriga/nvim-notify'},
+  }
   use 'christoomey/vim-tmux-navigator'
+  use {
+    'stevearc/oil.nvim',
+  }
   use 'nvim-lua/plenary.nvim'
   use {
     'nvim-telescope/telescope.nvim', branch = '0.1.x',-- commit ='4cccb6f494eb255b32a290d37c35ca12584c74d0'
@@ -41,7 +48,9 @@ return require('packer').startup(function(use)
   }
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'BurntSushi/ripgrep'
+  use 'xiyaowong/transparent.nvim'
   use 'lervag/vimtex'
+  use 'ray-x/web-tools.nvim'
   use 'morhetz/gruvbox'
   use 'mg979/vim-visual-multi'
   use 'simrat39/rust-tools.nvim'
