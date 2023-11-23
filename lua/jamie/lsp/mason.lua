@@ -1,3 +1,7 @@
+local status_ok_0, dap = pcall(require, "nvim-dap")
+if not status_ok then
+  return
+end
 local status_ok, mason = pcall(require, "mason")
 if not status_ok then
   return
@@ -8,10 +12,11 @@ if not status_ok_1 then
   return
 end
 local servers = {
-  "cssls",
+  -- "cssls",
   "cssmodules_ls",
   "emmet_ls",
   "html",
+  -- "cssmodules_language_server",
   "jdtls",
   "jsonls",
   "solc",
@@ -71,6 +76,21 @@ for _, server in pairs(servers) do
   if server == "yamlls" then
     local yamlls_opts = require "jamie.lsp.settings.yamlls"
     opts = vim.tbl_deep_extend("force", yamlls_opts, opts)
+  end
+
+  if server == "emmet_ls" then
+    local emmet_opts = require "jamie.lsp.settings.emmet"
+    opts = vim.tbl_deep_extend("force", emmet_opts, opts)
+  end
+
+  -- if server == "css_lsp" then
+  --   local csslps_opts = require "jamie.lsp.settings.csslsp"
+  --   opts = vim.tbl_deep_extend("force", csslsp_opts, opts)
+  -- end
+
+  if server == "cssmodules_ls" then
+    local cssmod_opts = require "jamie.lsp.settings.cssmod"
+    opts = vim.tbl_deep_extend("force", cssmod_opts, opts)
   end
 
   if server == "sumneko_lua" then

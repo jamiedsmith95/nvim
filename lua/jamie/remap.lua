@@ -3,6 +3,7 @@ local nmap = require("jamie.keymap").nmap
 local imap = require("jamie.keymap").imap
 local tnoremap = require("jamie.keymap").tnoremap
 local inoremap = require("jamie.keymap").inoremap
+local vnoremap = require("jamie.keymap").vnoremap
 nmap("f", "<Plug>Sneak_f")
 nmap("F", "<Plug>Sneak_F")
 nmap("t", "<Plug>Sneak_t")
@@ -17,6 +18,20 @@ inoremap("<C-o>B", "<C-o>F")
 inoremap("<C-o>o", "<C-o>*")
 inoremap("<up>", "<ESC><up>")
 inoremap("<down>", "<ESC><down>")
+nnoremap("<leader>z", "<cmd>ZenMode<CR>")
+nnoremap("<leader>db", function() require('dap').continue() end)
+nnoremap("<leader>bo", function() require('dap').step_over() end)
+nnoremap("<leader>bi", function() require('dap').step_into() end)
+nnoremap("<leader>bt", function() require('dap').step_out() end)
+nnoremap("<leader>bb", function() require('dap').toggle_breakpoint() end)
+nnoremap("<leader>bs", function() require('dap').set_breakpoint() end)
+nnoremap("<leader>br", function() require('dap').repl.open() end)
+nnoremap("<leader>bl", function() require('dap').run_last() end)
+nnoremap("<leader>bh", function() require('dap').hover() end)
+vnoremap("<leader>bh", function() require('dap').hover() end)
+nnoremap("<leader>bp", function() require('dap').preview() end)
+vnoremap("<leader>bp", function() require('dap').preview() end)
+
 
 
 inoremap("<C-s>", "<ESC>:%s//&/gc<left><left><left><left><left>")

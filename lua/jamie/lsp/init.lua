@@ -29,7 +29,6 @@ require("jamie.lsp.mason")
 require "jamie.lsp.lsp-signature"
 -- require "jamie.lsp.lsp-installer"
 require("jamie.lsp.handlers").setup()
-require "jamie.lsp.null-ls"
 -- require "jamie.lsp.lsp-signature"
 -- -- require "jamie.lsp.lsp-installer"
 -- require("jamie.lsp.mason")

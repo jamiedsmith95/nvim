@@ -204,7 +204,7 @@ cmp.setup({
 			group_index = 2,
 		},
 		{ name = "nvim_lua", keyword_length = 2, group_index = 2 },
-		{ name = "luasnip", keyword_length = 2, group_index = 2 },
+		{ name = "luasnip", keyword_length = 1, group_index = 2 },
 		{ name = "cmp_tabnine", keyword_length = 2, group_index = 2 },
 		{ name = "path", group_index = 2 },
 		{ name = "emoji", group_index = 2 },

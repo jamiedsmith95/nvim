@@ -7,7 +7,7 @@ local icons = require("jamie.icons")
 
 local cfg = {
 	debug = false, -- set to true to enable debug logging
-	log_path = "debug_log_file_path", -- debug log path
+	-- log_path = "debug_log_file_path", -- debug log path
 	verbose = false, -- show debug line number
 
 	bind = true, -- This is mandatory, otherwise border config won't get registered.

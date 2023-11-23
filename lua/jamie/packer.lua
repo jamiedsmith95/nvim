@@ -49,6 +49,9 @@ return require('packer').startup(function(use)
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'BurntSushi/ripgrep'
   use 'xiyaowong/transparent.nvim'
+  use 'mxsdev/nvim-dap-vscode-js'
+  use 'leoluz/nvim-dap-go'
+  use 'echasnovski/mini.jump2d'
   use 'lervag/vimtex'
   use 'ray-x/web-tools.nvim'
   use 'morhetz/gruvbox'
@@ -75,7 +78,6 @@ return require('packer').startup(function(use)
   use { "saadparwaiz1/cmp_luasnip" } -- snippet completions
   use { "hrsh7th/cmp-nvim-lsp" } -- lsp completions
   use { "hrsh7th/cmp-nvim-lua" } -- lua completions
---  use { "rcarriga/cmp-dap" }
   -- snippets
   use { "L3MON4D3/LuaSnip" } --snippet engine
   use { "rafamadriz/friendly-snippets" } -- a bunch of snippets to use
@@ -108,7 +110,7 @@ return require('packer').startup(function(use)
 
   -- LSP
   use { "neovim/nvim-lspconfig" } -- enable LSP
-  use { "jose-elias-alvarez/null-ls.nvim" } -- for formatters and linters
+  -- use { "jose-elias-alvarez/null-ls.nvim" } -- for formatters and linters
   use { "RRethy/vim-illuminate" } -- LSP Higlight
   -- use ({
   --   'nvimdev/lspsaga.nvim',
@@ -118,7 +120,12 @@ return require('packer').startup(function(use)
   --   end,
 -- })
 --  use { "glepnir/lspsaga.nvim" } -- LSP UI
-  use { "williamboman/mason.nvim" }
+  --
+  use {
+    "williamboman/mason.nvim",
+    "mfussenegger/nvim-dap",
+    "jay-babu/mason-nvim-dap.nvim",
+  }
   use { "williamboman/mason-lspconfig.nvim" }
   use { "ray-x/lsp_signature.nvim" }
  -- use { "williamboman/mason.nvim" } -- LSP Installer
