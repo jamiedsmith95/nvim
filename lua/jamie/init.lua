@@ -1,6 +1,7 @@
 require("jamie.oil")
 require("jamie.setting")
 require("jamie.lualine")
+require("jamie.lsp-zero")
 require('jamie.packer')
 require('telescope').setup()
 require("jamie.lsp")

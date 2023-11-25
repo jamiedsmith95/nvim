@@ -7,7 +7,7 @@ return {
         -- castNumberToInteger = true,
       },
       format = {
-        enable = false,
+        enable = true,
       },
       hint = {
         enable = true,

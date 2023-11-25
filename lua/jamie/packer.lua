@@ -48,6 +48,7 @@ return require('packer').startup(function(use)
   }
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'BurntSushi/ripgrep'
+  use '/home/jsmith49/rewin.nvim'
   use 'xiyaowong/transparent.nvim'
   use 'mxsdev/nvim-dap-vscode-js'
   use 'leoluz/nvim-dap-go'
@@ -121,6 +122,7 @@ return require('packer').startup(function(use)
 -- })
 --  use { "glepnir/lspsaga.nvim" } -- LSP UI
   --
+  use 'VonHeikemen/lsp-zero.nvim'
   use {
     "williamboman/mason.nvim",
     "mfussenegger/nvim-dap",
