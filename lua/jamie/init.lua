@@ -11,6 +11,7 @@ require("jamie.telescope")
 require("jamie.rtools")
 require("jamie.vimtex")
 require('jamie.tabnine')
+require('jamie.setups')
 require('jamie.true-zen')
 require("jamie.treesitter")
 require("jamie.ts-context")
@@ -24,7 +25,7 @@ require("jamie.autopairs")
 -- require("jamie.copilot")
 -- require("jamie.commands")
 require("jamie.remap")
-require('jamie.noice')
+-- require('jamie.noice')
 vim.opt.termguicolors = true
 -- require("bufferline").setup{}
 require'lspconfig'.tsserver.setup {}

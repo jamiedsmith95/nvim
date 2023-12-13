@@ -4,10 +4,6 @@ local imap = require("jamie.keymap").imap
 local tnoremap = require("jamie.keymap").tnoremap
 local inoremap = require("jamie.keymap").inoremap
 local vnoremap = require("jamie.keymap").vnoremap
-nmap("f", "<Plug>Sneak_f")
-nmap("F", "<Plug>Sneak_F")
-nmap("t", "<Plug>Sneak_t")
-nmap("T", "<Plug>Sneak_T")
 nnoremap("<leader>fo", "<cmd>lua vim.lsp.buf.format()<CR>")
 inoremap("<C-o>f", "<C-o>:call Toword()<CR>")
 nnoremap("<leader>cluster", ":Nread scp://jds@uhhpc.herts.ac.uk//beegfs/car/jds/gandalftest/mk_stars/")
@@ -32,10 +28,23 @@ vnoremap("<leader>bh", function() require('dap').hover() end)
 nnoremap("<leader>bp", function() require('dap').preview() end)
 vnoremap("<leader>bp", function() require('dap').preview() end)
 
+nnoremap("<CR>", "<Plug>selectItem")
+nnoremap("<leader>w", "<Plug>makeWin")
+nnoremap("<leader>c", "<Plug>closeWin")
+nnoremap("<leader>sw", "<Plug>winSwitch")
+nnoremap("<leader>f", "<Plug>listSelect")
+nnoremap("<leader>m", "<Plug>setBuf")
+
+nnoremap("<leader>bd", "<cmd>%bdelete|edit #|normal `\"<CR>")
+nnoremap("s", "<cmd>lua require('flash').jump()<cr>")
+nnoremap("<leader>st", "<cmd>lua require('flash').toggle()<cr>")
+nnoremap("<leader>ft", "<cmd>lua require('flash').treesitter()<cr>")
+nnoremap("<leader>st", "<cmd>lua require('flash').treesitter()<cr>")
 
 
 inoremap("<C-s>", "<ESC>:%s//&/gc<left><left><left><left><left>")
 
+nnoremap("<leader>pt", "<Plug>PlenaryTestFile")
 nnoremap("<leader>;", ":")
 nnoremap(",p", "p")
 nnoremap(",P", "P")
