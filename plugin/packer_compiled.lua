@@ -274,7 +274,7 @@ _G.packer_plugins = {
   rewin = {
     loaded = true,
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/rewin",
-    url = "/home/jsmith49/rewin"
+    url = "https://github.com/jamiedsmith95/rewin"
   },
   ripgrep = {
     loaded = true,

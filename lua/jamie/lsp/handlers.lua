@@ -50,7 +50,7 @@ M.setup = function()
       focusable = true,
       style = "minimal",
       border = "rounded",
-      -- border = {"▄","▄","▄","█","▀","▀","▀","█"},
+      -- border = single, --{"▄","▄","▄","█","▀","▀","▀","█"},
       source = "if_many", -- Or "always"
       header = "",
       prefix = "",
@@ -62,15 +62,23 @@ M.setup = function()
 
   vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, {
     border = "rounded",
+    silent = true,
     -- width = 60,
     -- height = 30,
   })
+
+  vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, 
+  { virtual_text = vim.lsp.virtual_text })
+
+  vim.lsp.handlers["textDocument/implementations"] = vim.lsp.with(vim.lsp.implementations)
 
   vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help, {
     border = "rounded",
     -- width = 60,
     -- height = 30,
   })
+
+
 end
 
 
@@ -85,15 +93,13 @@ end
 
 local function lsp_keymaps(bufnr)
   local opts = { noremap = true, silent = true }
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gd", "<cmd>Telescope lsp_definitions<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gD", "<cmd>Telescope lsp_declarations<CR>", opts)
-  -- vim.api.nvim_buf_set_keymap(bufnr, "n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gI", "<cmd>Telescope lsp_implementations<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gr", "<cmd>Telescope lsp_references<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gl", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
-  vim.cmd [[ command! Format execute 'lua vim.lsp.buf.format({ async = true })' ]]
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gs", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "<M-f>", "<cmd>Format<cr>", opts)
+  vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>gd", "<cmd>Telescope lsp_definitions<CR>", opts)
+  vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>gD", "<cmd>Telescope lsp_declarations<CR>", opts)
+  vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>B", "<cmd>lua vim.lsp.buf.hover()<CR>", {silent = true, noremap = false})
+  vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>gI", "<cmd>Telescope lsp_implementations<CR>", opts)
+  vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>gr", "<cmd>Telescope lsp_references<CR>", opts)
+  vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>gl", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
+  vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>gs", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
   vim.api.nvim_buf_set_keymap(bufnr, "n", "<M-a>", "<cmd>lua vim.lsp.buf.code_action()<cr>", opts)
   -- vim.api.nvim_buf_set_keymap(bufnr, "n", "<M-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
   -- vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>", opts)
@@ -109,6 +115,12 @@ M.on_attach = function(client, bufnr)
   -- attach_navic(client, bufnr)
 
   if client.name == "tsserver" then
+    client.server_capabilities.documentFormattingProvider = false
+    require("lsp-inlayhints").on_attach(client, bufnr)
+  end
+
+  if client.name == "eslint" then
+    client.server_capabilities.documentFormattingProvider = true
     require("lsp-inlayhints").on_attach(client, bufnr)
   end
 

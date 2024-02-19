@@ -25,9 +25,10 @@ local servers = {
   "html",
   "tflint",
   "terraformls",
+  "eslint_d",
   "tsserver",
   "gopls",
---  "pyright",
+  "pyright",
   "yamlls",
   "bashls",
   "clangd",
@@ -170,6 +171,8 @@ for _, server in pairs(servers) do
     rust_tools.setup(rust_opts)
     goto continue
   end
+  local other_opts = require "jamie.lsp.settings.other"
+  opts = vim.tbl_deep_extend("force", other_opts,opts)
 
   lspconfig[server].setup(opts)
   ::continue::
