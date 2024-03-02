@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   ["glow.nvim"] = {
     loaded = true,
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/glow.nvim",
@@ -143,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
+  },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
   },
   ["leap.nvim"] = {
     loaded = true,
@@ -188,6 +198,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/mini.jump2d",
     url = "https://github.com/echasnovski/mini.jump2d"
+  },
+  neogit = {
+    loaded = true,
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/NeogitOrg/neogit"
   },
   ["neoscroll.nvim"] = {
     loaded = true,

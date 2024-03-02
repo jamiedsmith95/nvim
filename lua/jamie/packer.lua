@@ -54,8 +54,15 @@ return require('packer').startup(function(use)
   use 'mxsdev/nvim-dap-vscode-js'
   use 'leoluz/nvim-dap-go'
   use 'folke/flash.nvim'
+  use {'NeogitOrg/neogit',
+  dependencies = {
+  "nvim-lua/plenary.nvim",
+  "sinstrets/diffview.nvim",
+  "nvim-telescope/telescope.nvim"
+}}
   use 'echasnovski/mini.jump2d'
   use 'lervag/vimtex'
+  use 'lewis6991/gitsigns.nvim'
   use 'ray-x/web-tools.nvim'
   use 'morhetz/gruvbox'
   use 'mg979/vim-visual-multi'
@@ -96,6 +103,7 @@ return require('packer').startup(function(use)
   use 'karb94/neoscroll.nvim'
   use 'junegunn/vim-slash'
   use 'vuciv/vim-bujo'
+  use 'kdheepak/lazygit.nvim'
   use 'tpope/vim-abolish'
   -- use "zbirenbaum/copilot-cmp"
   -- use { "zbirenbaum/copilot.lua" }
