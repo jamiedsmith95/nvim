@@ -10,6 +10,9 @@ nnoremap("<leader>nh", "<cmd>Gitsigns next_hunk<CR>")
 nnoremap("<leader>Nh", "<cmd>Gitsigns prev_hunk<CR>")
 nnoremap("<leader>Nh", "<cmd>Gitsigns prev_hunk<CR>")
 nnoremap("<leader>sh", "<cmd>Gitsigns stage_hunk<CR>")
+
+
+nnoremap("<leader>gn", "<cmd>Neogit<CR>")
 inoremap("<C-o>f", "<C-o>:call Toword()<CR>")
 nnoremap("<leader>gg", "<cmd>LazyGit<CR>")
 nnoremap("<leader>cluster", ":Nread scp://jds@uhhpc.herts.ac.uk//beegfs/car/jds/gandalftest/mk_stars/")
