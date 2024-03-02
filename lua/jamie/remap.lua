@@ -5,6 +5,11 @@ local tnoremap = require("jamie.keymap").tnoremap
 local inoremap = require("jamie.keymap").inoremap
 local vnoremap = require("jamie.keymap").vnoremap
 nnoremap("<leader>fo", "<cmd>lua vim.lsp.buf.format()<CR>")
+nnoremap("<leader>ph", "<cmd>Gitsigns preview_hunk<CR>")
+nnoremap("<leader>nh", "<cmd>Gitsigns next_hunk<CR>")
+nnoremap("<leader>Nh", "<cmd>Gitsigns prev_hunk<CR>")
+nnoremap("<leader>Nh", "<cmd>Gitsigns prev_hunk<CR>")
+nnoremap("<leader>sh", "<cmd>Gitsigns stage_hunk<CR>")
 inoremap("<C-o>f", "<C-o>:call Toword()<CR>")
 nnoremap("<leader>cluster", ":Nread scp://jds@uhhpc.herts.ac.uk//beegfs/car/jds/gandalftest/mk_stars/")
 inoremap("<C-o>t", "<C-o>f")
