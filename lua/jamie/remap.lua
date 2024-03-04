@@ -4,7 +4,20 @@ local imap = require("jamie.keymap").imap
 local tnoremap = require("jamie.keymap").tnoremap
 local inoremap = require("jamie.keymap").inoremap
 local vnoremap = require("jamie.keymap").vnoremap
+<<<<<<< HEAD
+=======
+nnoremap("<leader>fo", "<cmd>lua vim.lsp.buf.format()<CR>")
+nnoremap("<leader>ph", "<cmd>Gitsigns preview_hunk<CR>")
+nnoremap("<leader>nh", "<cmd>Gitsigns next_hunk<CR>")
+nnoremap("<leader>Nh", "<cmd>Gitsigns prev_hunk<CR>")
+nnoremap("<leader>Nh", "<cmd>Gitsigns prev_hunk<CR>")
+nnoremap("<leader>sh", "<cmd>Gitsigns stage_hunk<CR>")
+
+
+nnoremap("<leader>gn", "<cmd>Neogit<CR>")
+>>>>>>> bbf8ee7f636f8bc762f7f8bf40c3ac3bac3d6a27
 inoremap("<C-o>f", "<C-o>:call Toword()<CR>")
+nnoremap("<leader>gg", "<cmd>LazyGit<CR>")
 nnoremap("<leader>cluster", ":Nread scp://jds@uhhpc.herts.ac.uk//beegfs/car/jds/gandalftest/mk_stars/")
 
 nnoremap("<leader>fo", "<cmd>lua vim.lsp.buf.format({async=true})<CR>")
