@@ -4,9 +4,10 @@ local imap = require("jamie.keymap").imap
 local tnoremap = require("jamie.keymap").tnoremap
 local inoremap = require("jamie.keymap").inoremap
 local vnoremap = require("jamie.keymap").vnoremap
-nnoremap("<leader>fo", "<cmd>lua vim.lsp.buf.format()<CR>")
 inoremap("<C-o>f", "<C-o>:call Toword()<CR>")
 nnoremap("<leader>cluster", ":Nread scp://jds@uhhpc.herts.ac.uk//beegfs/car/jds/gandalftest/mk_stars/")
+
+nnoremap("<leader>fo", "<cmd>lua vim.lsp.buf.format({async=true})<CR>")
 inoremap("<C-o>t", "<C-o>f")
 inoremap("<C-o>b", "<C-o>T")
 nnoremap("-", "<CMD>Oil<CR>")
@@ -96,6 +97,7 @@ nnoremap("<C-s>", "<cmd>w<CR>")
 -- nnoremap("<leader>bb", "<cmd>bnext<CR>")
 nnoremap("<leader>ff", ":Telescope find_files<CR>")
 nnoremap("<leader>fg", ":Telescope live_grep<CR>")
+nnoremap("<leader>fd", ":Telescope buffers<CR>")
 nnoremap("<leader>up", "ddkP")
 nnoremap("<leader>fb", ":Telescope file_browser<CR>")
 inoremap("<C-w>", "<C-\\><C-o>dB")

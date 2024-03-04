@@ -25,8 +25,7 @@ local servers = {
   "html",
   "tflint",
   "terraformls",
-  "eslint_d",
-  "tsserver",
+  -- "tsserver",
   "gopls",
   "pyright",
   "yamlls",
@@ -36,7 +35,9 @@ local servers = {
   -- "rust-tools",
   "taplo",
   "zk@v0.10.1",
-  "lemminx"
+  "lemminx",
+  "eslint_d",
+  "eslint",
 }
 
 local settings = {
@@ -125,10 +126,6 @@ for _, server in pairs(servers) do
     goto continue
   end
 
-  if server == "tsserver" then
-    local tsserver_opts = require "jamie.lsp.settings.tsserver"
-    opts = vim.tbl_deep_extend("force", tsserver_opts, opts)
-  end
 
   if server == "gopls" then
     local goopts = require "jamie.lsp.settings.goopts"
@@ -168,11 +165,14 @@ for _, server in pairs(servers) do
       return
     end
 
+  if server == "eslint" then
+    local tsserver_opts = require "jamie.lsp.settings.other"
+    opts = vim.tbl_deep_extend("force", tsserver_opts, opts)
+  end
+
     rust_tools.setup(rust_opts)
     goto continue
   end
-  local other_opts = require "jamie.lsp.settings.other"
-  opts = vim.tbl_deep_extend("force", other_opts,opts)
 
   lspconfig[server].setup(opts)
   ::continue::

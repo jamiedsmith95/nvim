@@ -35,7 +35,7 @@ return {
       packageManager = "npm",
       quiet = false,
       run = "onType",
-      useESLintClass = false,
+      useESLintClass = true,
       validate = "on",
       workingDirectory = {
         mode = "location"

@@ -63,6 +63,8 @@ M.setup = function()
   vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, {
     border = "rounded",
     silent = true,
+    offset_y = 5,
+    anchor_bias = 'auto',
     -- width = 60,
     -- height = 30,
   })
@@ -101,6 +103,7 @@ local function lsp_keymaps(bufnr)
   vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>gl", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
   vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>gs", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
   vim.api.nvim_buf_set_keymap(bufnr, "n", "<M-a>", "<cmd>lua vim.lsp.buf.code_action()<cr>", opts)
+  vim.api.nvim_buf_set_keymap(bufnr,"n","<leader>fo", "<cmd>echo 'hello'<CR>", {noremap=false,silent=true})
   -- vim.api.nvim_buf_set_keymap(bufnr, "n", "<M-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
   -- vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>", opts)
   -- vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>", opts)
@@ -119,8 +122,9 @@ M.on_attach = function(client, bufnr)
     require("lsp-inlayhints").on_attach(client, bufnr)
   end
 
-  if client.name == "eslint" then
+  if client.name == "eslint" or client.name == "eslint_d" then
     client.server_capabilities.documentFormattingProvider = true
+    client.resolved_capabilities.document_formatting = true
     require("lsp-inlayhints").on_attach(client, bufnr)
   end
 

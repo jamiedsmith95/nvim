@@ -130,6 +130,7 @@ return require('packer').startup(function(use)
     "mfussenegger/nvim-dap",
     "jay-babu/mason-nvim-dap.nvim",
   }
+  use { "MunifTanjim/eslint.nvim" }
   use { "williamboman/mason-lspconfig.nvim" }
   use { "ray-x/lsp_signature.nvim" }
   -- use { "williamboman/mason.nvim" } -- LSP Installer

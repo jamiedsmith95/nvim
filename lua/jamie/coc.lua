@@ -55,7 +55,7 @@ g.coc_global_extensions = {
    'coc-svg',
    'coc-tailwindcss',
    'coc-tslint-plugin',
-   'coc-tsserver',
+   -- 'coc-tsserver',
    'coc-vetur',
    'coc-vimlsp',
    'coc-webpack',
