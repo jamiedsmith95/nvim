@@ -48,6 +48,7 @@ return require('packer').startup(function(use)
   }
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'BurntSushi/ripgrep'
+  use '00sapo/visual.nvim'
   use 'jamiedsmith95/rewin'
   -- use '/home/jsmith49/rewin'
   use 'xiyaowong/transparent.nvim'

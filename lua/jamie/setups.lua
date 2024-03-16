@@ -2,6 +2,10 @@ local rewin = require("rewin")
 rewin.setup {
 }
 
+require('visual').setup({
+
+})
+
 require("neogit").setup({
 
   kind = "floating",

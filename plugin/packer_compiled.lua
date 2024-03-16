@@ -411,6 +411,11 @@ _G.packer_plugins = {
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
   },
+  ["visual.nvim"] = {
+    loaded = true,
+    path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/visual.nvim",
+    url = "https://github.com/00sapo/visual.nvim"
+  },
   ["vscode-langservers-extracted"] = {
     loaded = true,
     path = "/home/jsmith49/.local/share/nvim/site/pack/packer/start/vscode-langservers-extracted",
