@@ -3,7 +3,11 @@ rewin.setup {
 }
 
 require('visual').setup({
-
+  treesitter_textobjects = true,
+  mappings = {
+    line_visual = "y",
+    toggle_serendipity = "."
+  },
 })
 
 require("neogit").setup({
@@ -25,10 +29,10 @@ require("neogit").setup({
 require('gitsigns').setup({
   signcolumn = true,
   signs = {
-    add = {text = '+'},
-    change = {text = '~'},
-    delete = {text = '-'},
-    untracked = {text = '?'}
+    add = { text = '+' },
+    change = { text = '~' },
+    delete = { text = '-' },
+    untracked = { text = '?' }
   }
 })
 require("flash").setup({
@@ -38,4 +42,3 @@ require("flash").setup({
     }
   }
 })
-
