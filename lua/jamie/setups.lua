@@ -2,6 +2,8 @@ local rewin = require("rewin")
 rewin.setup {
 }
 
+require('which-key').setup({})
+
 require('visual').setup({
   treesitter_textobjects = true,
   mappings = {
