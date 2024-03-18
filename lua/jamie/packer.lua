@@ -38,14 +38,19 @@ return require('packer').startup(function(use)
   --   requires = {'MunifTanjim/nui.nvim', 'rcarriga/nvim-notify'},
   -- }
   use 'christoomey/vim-tmux-navigator'
+  use 'folke/which-key.nvim'
   use {
     'stevearc/oil.nvim',
   }
   use 'nvim-lua/plenary.nvim'
-  use {
-    'nvim-telescope/telescope.nvim', branch = '0.1.x', -- commit ='4cccb6f494eb255b32a290d37c35ca12584c74d0'
-    requires = { { 'nvim-lua/plenary.nvim' } }
+  use { 
+  'nvim-telescope/telescope.nvim',
+  requires = { { 'nvim-lua/plenary.nvim' } }
   }
+  -- use {
+  --   'nvim-telescope/telescope.nvim', branch = '0.1.x', -- commit ='4cccb6f494eb255b32a290d37c35ca12584c74d0'
+  --   requires = { { 'nvim-lua/plenary.nvim' } }
+  -- }
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'BurntSushi/ripgrep'
   use 'jamiedsmith95/rewin'
@@ -103,7 +108,7 @@ return require('packer').startup(function(use)
   use 'karb94/neoscroll.nvim'
   use 'junegunn/vim-slash'
   use 'vuciv/vim-bujo'
-  use 'kdheepak/lazygit.nvim'
+  -- use 'kdheepak/lazygit.nvim'
   use 'tpope/vim-abolish'
   -- use "zbirenbaum/copilot-cmp"
   -- use { "zbirenbaum/copilot.lua" }
@@ -114,7 +119,6 @@ return require('packer').startup(function(use)
   use 'ellisonleao/glow.nvim'
   use 'vimwiki/vimwiki'
   use 'tpope/vim-commentary'
-  use 'glepnir/dashboard-nvim'
   -- use 'bling/vim-bufferline'
 
 
@@ -160,6 +164,10 @@ return require('packer').startup(function(use)
   -- use 'nrsh7th/cmp-cmp'
 
   use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate", }
+  use 'srcery-colors/srcery-vim'
+  use 'EdenEast/nightfox.nvim'
+  use 'Yazeed1s/minimal.nvim'
+  use 'fcancelinha/northern.nvim'
   use { "nvim-treesitter/nvim-treesitter-context" }
   use({
     "nvim-treesitter/nvim-treesitter-textobjects",

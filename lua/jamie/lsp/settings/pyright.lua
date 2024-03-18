@@ -47,19 +47,19 @@ end
 return {
   default_config = {
     cmd = { 'pyright-langserver', '--stdio' },
-    filetypes = { 'python' },
+    filetypes = {},
     root_dir = function(fname)
       return util.root_pattern(unpack(root_files))(fname)
     end,
     single_file_support = true,
     settings = {
-      python = {
-        analysis = {
-          autoSearchPaths = true,
-          useLibraryCodeForTypes = true,
-          diagnosticMode = 'openFilesOnly',
-        },
-      },
+      -- python = {
+      --   analysis = {
+      --     autoSearchPaths = true,
+      --     useLibraryCodeForTypes = true,
+      --     diagnosticMode = 'openFilesOnly',
+      --   },
+      -- },
     },
   },
   commands = {

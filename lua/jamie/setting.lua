@@ -1,6 +1,6 @@
 local o = vim.opt
 vim.cmd("let g:gruvbox_transparent_bg = '1'")
-vim.cmd("colorscheme sonokai")
+vim.cmd("colorscheme srcery")
 vim.cmd("let g:gruvbox_transparent_bg = '1'")
 
 

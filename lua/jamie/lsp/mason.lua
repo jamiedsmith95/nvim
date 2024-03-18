@@ -19,6 +19,7 @@ local servers = {
   -- "cssmodules_language_server",
   "jdtls",
   "jsonls",
+  "ruff_lsp",
   "solc",
   "lua_ls",
   "lua-language-server",
@@ -135,6 +136,11 @@ for _, server in pairs(servers) do
   if server == "kotlin-language-server" then
     local kotlin_opts = require "jamie.lsp.settings.kotlin"
     opts = vim.tbl_deep_extend("force", kotlin_opts, opts)
+  end
+
+  if server == "ruff_lsp" then
+    local ruff_opts = require "jamie.lsp.settings.ruff"
+    opts = vim.tbl_deep_extend("force", ruff_opts, opts)
   end
 
   if server == "pyright" then

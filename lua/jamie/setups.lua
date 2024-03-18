@@ -2,7 +2,6 @@ local rewin = require("rewin")
 rewin.setup {
 }
 
-<<<<<<< HEAD
 local eslint = require("eslint")
 
 eslint.setup({
@@ -22,7 +21,6 @@ eslint.setup({
   }
 })
 
-=======
 require("neogit").setup({
 
   kind = "floating",
@@ -30,6 +28,9 @@ require("neogit").setup({
     kind = "floating"
   },
   commit_editor = {
+    kind = "floating"
+  },
+  commit_view = {
     kind = "floating"
   },
   popup = {
@@ -48,7 +49,6 @@ require('gitsigns').setup({
     untracked = {text = '?'}
   }
 })
->>>>>>> bbf8ee7f636f8bc762f7f8bf40c3ac3bac3d6a27
 require("flash").setup({
   modes = {
     search = {
@@ -57,3 +57,6 @@ require("flash").setup({
   }
 })
 
+require("which-key").setup {
+
+}
