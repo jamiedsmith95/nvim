@@ -11,7 +11,7 @@ nnoremap("<leader>Nh", "<cmd>Gitsigns prev_hunk<CR>")
 nnoremap("<leader>Nh", "<cmd>Gitsigns prev_hunk<CR>")
 nnoremap("<leader>sh", "<cmd>Gitsigns stage_hunk<CR>")
 
-
+nnoremap('U','<c-r>')
 nnoremap("<leader>gn", "<cmd>Neogit<CR>")
 inoremap("<C-o>f", "<C-o>:call Toword()<CR>")
 -- nnoremap("<leader>gg", "<cmd>LazyGit<CR>")
@@ -26,6 +26,7 @@ inoremap("<C-o>o", "<C-o>*")
 inoremap("<up>", "<ESC><up>")
 inoremap("<down>", "<ESC><down>")
 nnoremap("<leader>z", "<cmd>ZenMode<CR>")
+
 nnoremap("<leader>db", function() require('dap').continue() end)
 nnoremap("<leader>bo", function() require('dap').step_over() end)
 nnoremap("<leader>bi", function() require('dap').step_into() end)

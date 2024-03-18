@@ -38,7 +38,6 @@ return require('packer').startup(function(use)
   --   requires = {'MunifTanjim/nui.nvim', 'rcarriga/nvim-notify'},
   -- }
   use 'christoomey/vim-tmux-navigator'
-  use 'folke/which-key.nvim'
   use {
     'stevearc/oil.nvim',
   }
@@ -53,18 +52,25 @@ return require('packer').startup(function(use)
   -- }
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'BurntSushi/ripgrep'
+  use '00sapo/visual.nvim'
   use 'jamiedsmith95/rewin'
   -- use '/home/jsmith49/rewin'
   use 'xiyaowong/transparent.nvim'
   use 'mxsdev/nvim-dap-vscode-js'
+  use {
+    'ThePrimeagen/harpoon',
+    branch = "harpoon2",
+    requires = { { "nvim-lua/plenary.nvim" } }
+  }
   use 'leoluz/nvim-dap-go'
+  use 'folke/which-key.nvim'
   use 'folke/flash.nvim'
-  use {'NeogitOrg/neogit',
-  dependencies = {
-  "nvim-lua/plenary.nvim",
-  "sinstrets/diffview.nvim",
-  "nvim-telescope/telescope.nvim"
-}}
+  use { 'NeogitOrg/neogit',
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "sinstrets/diffview.nvim",
+      "nvim-telescope/telescope.nvim"
+    } }
   use 'echasnovski/mini.jump2d'
   use 'lervag/vimtex'
   use 'lewis6991/gitsigns.nvim'

@@ -1,6 +1,6 @@
 local rewin = require("rewin")
-rewin.setup {
-}
+rewin.setup( {
+})
 
 local eslint = require("eslint")
 
@@ -18,7 +18,15 @@ eslint.setup({
     enable = true,
     report_unused_disable_directives = false,
     run_on = "type",
-  }
+  }})
+require('which-key').setup({})
+
+require('visual').setup({
+  treesitter_textobjects = true,
+  mappings = {
+    line_visual = "y",
+    toggle_serendipity = "."
+  },
 })
 
 require("neogit").setup({
@@ -43,10 +51,10 @@ require("neogit").setup({
 require('gitsigns').setup({
   signcolumn = true,
   signs = {
-    add = {text = '+'},
-    change = {text = '~'},
-    delete = {text = '-'},
-    untracked = {text = '?'}
+    add = { text = '+' },
+    change = { text = '~' },
+    delete = { text = '-' },
+    untracked = { text = '?' }
   }
 })
 require("flash").setup({
@@ -57,6 +65,6 @@ require("flash").setup({
   }
 })
 
-require("which-key").setup {
+require("which-key").setup({
 
-}
+})
