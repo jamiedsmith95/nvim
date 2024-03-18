@@ -48,9 +48,13 @@ return require('packer').startup(function(use)
   }
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'BurntSushi/ripgrep'
-  use '00sapo/visual.nvim'
+  use {'00sapo/visual.nvim',
+      opts = { treesitter_textobjects = true},
+      dependencies = {"nvim-treesitter ", "nvim-treesitter-textobjects"},
+  }
   use 'jamiedsmith95/rewin'
-  -- use '/home/jsmith49/rewin'
+  -- use {'/home/jsmith49/rewin',
+  -- branch = 'modWin'}
   use 'xiyaowong/transparent.nvim'
   use 'mxsdev/nvim-dap-vscode-js'
   use {
