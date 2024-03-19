@@ -27,6 +27,13 @@ require('visual').setup({
   commands = {
 
 
+    line_visual2 = {
+      pre_amend = { "<s-v>" },
+      post_amend = {},
+      modes = { "n" },
+      amend = false,
+      countable = true
+    },
     sd_inside2 = {
       pre_amend = { "<esc>", "<sdi>i" },
       post_amend = {},
@@ -44,6 +51,7 @@ require('visual').setup({
 
   },
   mappings = {
+    line_visual = "y",
     toggle_serendipity = ".",
     sd_inside2 = "<leader>i",
     sd_around2 = "<leader>a",
