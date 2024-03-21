@@ -1,0 +1,42 @@
+theme = "dracula"
+
+[editor]
+mouse = false
+line-number = "absolute"
+bufferline = "always"
+gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+auto-completion = true
+completion-replace = true
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+[editor.statusline]
+left = ["mode", "spinner","file-modification-indicator"]
+center = ["file-name", "version-control"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+auto-signature-help = true
+display-inlay-hints = true
+display-messages = true
+
+[keys.normal]
+C-s = ":w"
+g = { a =  "code_action" } 
+"ret" = ["move_line_down", "goto_first_nonwhitespace"]
+X = "extend_line_above"
+D = "delete_char_backward"
+
+[keys.insert]
+"up" = ["normal_mode", "move_visual_line_up"]
+"down" = ["normal_mode", "move_visual_line_down"] 
+C-c = "normal_mode"
+
