@@ -1,11 +1,11 @@
-colorscheme palenight
-
+colorscheme monokai
 
 hook global InsertChar \t %{ exec -draft -itersel h@ }
 set global tabstop 2
 set global indentwidth 2
 set global scrolloff 8,3
-set-option global ui_options terminal_assistant=cat
+set-option global ui_options terminal_assistant=off
+set-option global ui_options terminal_enable_mouse=false
 
 add-highlighter	global/ number-lines -hlcursor -relative -separator " "
 add-highlighter global/ show-matching
@@ -24,6 +24,7 @@ hook global InsertCompletionHide .* %{
 
 
 
+
 # leave insert mode when changing line
 map global insert <up> '<esc>k'
 map global insert <down> '<esc>j'
@@ -31,8 +32,7 @@ map global insert <c-s> <esc>
 map global normal <end> "gl"
 map global normal <home> "gh"
 map global normal <c-s> ':write<ret>'
-map global normal <space> ,
-map global normal x X
+map global normal S '\%s'
 
 map global normal "#" ":comment-line<ret>"
 
@@ -52,10 +52,11 @@ plug "andreyorst/plug.kak" noload
 
 
 plug "secondary-smiles/kakoune-themes" theme config %{
+  colorscheme mygruvbox
 }
 
-plug "gustavo-hms/luar" %{
-      require-module luar
+define-command convert_date_to_iso_8601 %{
+  execute-keys '|date -I -d "$kak_selection"<ret>'
 }
 
 plug "andreyorst/powerline.kak" defer powerline_gruvbox %{
@@ -64,6 +65,9 @@ plug "andreyorst/powerline.kak" defer powerline_gruvbox %{
       powerline-start
 }
 
+plug "evanrelf/byline.kak" config %{
+  require-module byline
+}
 
 
 # fzf
@@ -74,9 +78,9 @@ plug "andreyorst/fzf.kak" config %{
 } defer fzf %{
       set-option global fzf_highlight_command "lat -r {}"
 } defer fzf-file %{
-      set-option global fzf_file_command "fd . --no-ignore-vcs"
+      set-option global fzf_file_command "rg"
 } defer fzf-grep %{
-      set-option global fzf_grep_command "fd"
+      set-option global fzf_grep_command "rg"
 }
 map -docstring "open fzf" global user f ": fzf-mode<ret>"
 map -docstring "open lsp" global user l ": enter-user-mode lsp<ret>"
@@ -89,8 +93,8 @@ plug "kak-lsp/kak-lsp" do %{
          }
 
 plug "caksoylar/kakoune-focus" config %{
-         # configuration here
           }
+
 map global user <space> ': focus-toggle<ret>' -docstring "toggle selection focus"
 plug 'jordan-yee/kakoune-git-mode' config %{
     declare-git-mode
