@@ -1,20 +1,17 @@
-file_watch_support = false
 snippet_support = true
-verbosity = 2
+verbosity = 5
 
 [server]
 # exit session if no requests were received during given period in seconds
 # set to 0 to disable
-timeout = 1800 # seconds = 30 minutes
 
 # This section overrides language IDs.
 # By default, kakoune-lsp uses filetypes for the IDs.
 # See https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocumentItem
+#
 [language_ids]
 c = "c_cpp"
 cpp = "c_cpp"
-javascript = "javascriptreact"
-typescript = "typescriptreact"
 protobuf = "proto"
 sh = "shellscript"
 
@@ -301,11 +298,15 @@ roots = ["requirements.txt", "setup.py", "pyrightconfig.json", ".git", ".hg"]
 command = "pyright-langserver"
 args = ["--stdio"]
 
+
 [language_server.ruff]
 filetypes = ["python"]
 roots = ["requirements.txt", "setup.py", ".git", ".hg"]
 command = "ruff-lsp"
 settings_section = "_"
+[language_server.ruff.settings._]
+line-length = 120
+output-format = "grouped"
 [language_server.ruff.settings._.globalSettings]
 organizeImports = true
 fixAll = true
@@ -406,7 +407,7 @@ forwardSearch.args = [
     "--synctex-forward", # Support texlab-forward-search
     "%l:1:%f",
     "--synctex-editor-command", # Inverse search: use Control+Left-Mouse-Button to jump to source.
-    """
+   """
         sh -c '
             echo "
                 evaluate-commands -client %%opt{texlab_client} %%{
@@ -426,27 +427,31 @@ command = "typescript-language-server"
 args = ["--stdio"]
 settings_section = "_"
 [language_server.typescript-language-server.settings._]
-# quotePreference = "double"
-# typescript.format.semicolons = "insert"
+typescript.format.semicolons = "insert"
+typescript.format.insertSpaceAfterCommaDelimiter = true
+typescript.format.insertSpaceBeforeFunctionParenthesis = true
+typescript.implementationsCodeLens.enabled = true
+typescript.referencesCodeLens.enabled = true
+typescript.referencesCodeLens.showOnAllFunctions = true
 
-[language_server.eslint]
-filetypes = ["javascript", "typescript"]
-roots = [".eslintrc", ".eslintrc.json"]
-command = "eslint-language-server"
-args = ["--stdio"]
-workaround_eslint = true
-
-[language_server.eslint.settings]
-codeActionsOnSave = { mode = "all", "source.fixAll.eslint" = true }
-format = { enable = true }
-quiet = false
-rulesCustomizations = []
-run = "onType"
-validate = "on"
-experimental = {}
-problems = { shortenToSingleLine = false }
-codeAction.disableRuleComment = { enable = true, location = "separateLine" }
-codeAction.showDocumentation = { enable = false }
+# [language_server.eslint]
+# filetypes = ["javascript", "typescript"]
+# roots = [".eslintignore", ".eslintrc.json"]
+# command = "eslint"
+# args = ["--stdio --json"]
+# workaround_eslint = true
+# settings_section = "_"
+# [language_server.eslint.settings._]
+# codeActionsOnSave = { mode = "all", "source.fixAll.eslint" = true }
+# format = { enable = true }
+# quiet = false
+# rulesCustomizations = []
+# run = "onType"
+# validate = "on"
+# experimental = {}
+# problems = { shortenToSingleLine = false }
+# codeAction.disableRuleComment = { enable = true, location = "separateLine" }
+# codeAction.showDocumentation = { enable = true }
 
 [language_server.yaml-language-server]
 filetypes = ["yaml"]
@@ -486,3 +491,5 @@ faces = [
     {face="default+d", token="variable", modifiers=["constant"]},
     {face="variable", token="variable"},
 ]
+
+
