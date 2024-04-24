@@ -11,6 +11,7 @@ add-highlighter global/ wrap -indent
 hook global ClientCreate .* %{
     set-option global ui_options terminal_assistant=off
     set-option -add global ui_options terminal_enable_mouse=false
+    csv-disable
   }
 
 define-command open-config %{
@@ -61,13 +62,11 @@ evaluate-commands %sh{
                             printf "%s\n" "source '$plugins/plug.kak/rc/plug.kak'"
 }
 plug "andreyorst/plug.kak" noload 
+plug "gspia/csv.kak"
 
 
 map global normal / '/(?i)'
 
-plug "occivink/kakoune-gdb"
-plug "gspia/csv.kak" config %{
-} 
 
 plug "alexherbo2/auto-pairs.kak" config %{
   enable-auto-pairs
@@ -182,13 +181,14 @@ hook global WinSetOption filetype=(typescript|rust|python|php|haskell|cpp|latex|
 }
 
     hook global WinSetOption filetype=(python) %{
-      colorscheme one-dark
+      colorscheme pastel
+      set-face window documentation default,default,default+d
       jedi-enable-autocomplete
-      set-option window lintcmd "flake8 --filename='*' --format='%%(path)s:%%(row)d:%%(col)d: error: %%(text)s' --ignore=E121,E123,E126,E226,E24,E704,W503,W504,E501,E221,E127,E128,E129,F405"
-      add-highlighter global/indent show-whitespaces -indent '|' -lf ' ' -tab ' ' -tabpad ' ' -nbsp '-' -spc ' '
-      set global indentwidth 4
-      set global tabstop 4
-      set-option global formatcmd "black -"
+      # set-option window lintcmd "flake8 --filename='*' --format='%%(path)s:%%(row)d:%%(col)d: error: %%(text)s' --ignore=E121,E123,E126,E226,E24,E704,W503,W504,E501,E221,E127,E128,E129,F405"
+      add-highlighter window/indent show-whitespaces -indent '|' -lf ' ' -tab ' ' -tabpad ' ' -nbsp '-' -spc ' '
+      set window indentwidth 4
+      set window tabstop 4
+      set-option window formatcmd "black -"
     }
     
     hook global WinSetOption filetype=sh %{
@@ -200,6 +200,17 @@ hook global WinSetOption filetype=(typescript|rust|python|php|haskell|cpp|latex|
       map global lint-shell 'n' ': lint-next-message<ret>'     -docstring 'next error'
       map global lint-shell 'p' ': lint-previous-message<ret>' -docstring 'previous error'
 }
+
+hook global WinSetOption filetype=(csv) %{
+  declare-user-mode csv-mode
+  map window user a ': enter-user-mode csv-mode<ret>' -docstring 'csv mode'
+  map global csv-mode c ': csv-colour-rgx<ret>' -docstring 'create regex for column'
+  map global csv-mode n ': csv-next-col<ret>' -docstring 'set register to match columns'
+  map global csv-mode h ': add-highlighter window/csv regex %opt{col_rgx} %opt{col_faces}<ret>' -docstring 'Highlight columns'
+
+}
+
+
 plug "caksoylar/kakoune-focus" config %{
           }
 plug "danr/kakoune-easymotion" config %{
