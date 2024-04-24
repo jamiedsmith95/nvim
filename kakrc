@@ -1,11 +1,9 @@
-colorscheme one-dark-16
-source '/home/jamie/.config/kak/csv.kak'
 hook global InsertChar \t %{ exec -draft -itersel h@ }
 set-option global tabstop 2
 set-option global indentwidth 2
 set-option global scrolloff 8,3
 set-face global CurWord +b
-
+source ~/.config/kak/csv.kak
 declare-option int col_num 1
 add-highlighter	global/ number-lines -hlcursor -relative -separator " "
 add-highlighter global/ show-matching
@@ -62,13 +60,14 @@ evaluate-commands %sh{
                         git clone -q https://github.com/andreyorst/plug.kak.git "$plugins/plug.kak"
                             printf "%s\n" "source '$plugins/plug.kak/rc/plug.kak'"
 }
+plug "andreyorst/plug.kak" noload 
 
-plug "andreyorst/plug.kak" noload config %{
-}
 
 map global normal / '/(?i)'
 
 plug "occivink/kakoune-gdb"
+plug "gspia/csv.kak" config %{
+} 
 
 plug "alexherbo2/auto-pairs.kak" config %{
   enable-auto-pairs
