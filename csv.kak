@@ -1,18 +1,24 @@
 define-command csv-column  %{
   evaluate-commands %{
+    try %{
     set window col_num %sh{
       cursor=$(( $kak_cursor_column  ))
+      if [ $cursor -gt 1 ]
+      then
+        cursor=$(( cursor - 1))
+      fi
       sed ''$kak_cursor_line'q;d' $kak_bufname | cut -c 1-$cursor  | csvtool width '-'
 
+    }
     }
 }
 }
 
 declare-option -hidden regex csv_colour_rgx
 # declare-option regex csv_columns (?:,|^)("(?:(?:"")*[^"]*)*"|[^",\n]*|(?:\n|$))
-declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+[^"\n]*)+"|[^",\n]+)|(?:$|\n|,))
+declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")*[^"\n]*)*"|[^",\n]*)|(?:$|\n|,))
 # declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+[^"\n]*)+"|[^",\n]+)|(?:$|\n|,))
-declare-option regex csv_columns_rgx (?:,|^)\\h*\K("(?:(?:"")*[^"]*)*"|[^",\\n]*)
+declare-option regex csv_columns_rgx (?:,|^)\\h*\K("(?:(?:"")*[^"\\n]*)*"|[^",\\n]*)
 declare-option int csvline
 declare-option int csv_width
 
@@ -85,7 +91,7 @@ define-command -docstring "Select current column" col-select %{
   csv-next-col
   set buffer csvline %val{cursor_line}
   execute-keys \%<a-s><home>
-  evaluate-commands -itersel %{
+  evaluate-commands -itersel -no-hooks %{
     execute-keys %opt{col_num}n
   }
   execute-keys %opt{csvline})
@@ -103,7 +109,7 @@ define-command csv-colour-rgx %{
     eval "set -- $kak_quoted_opt_column_faces"
     columns=$kak_opt_csv_width
     length=$#
-    rgx=""
+    rgx=
     faces=""
     while [ $index -le $columns ]
     do
