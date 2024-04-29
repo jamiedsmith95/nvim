@@ -11,7 +11,6 @@ add-highlighter global/ wrap -indent
 hook global ClientCreate .* %{
     set-option global ui_options terminal_assistant=off
     set-option -add global ui_options terminal_enable_mouse=false
-    csv-disable
   }
 
 define-command open-config %{
@@ -45,7 +44,6 @@ map global insert <c-s> <esc>
 map global normal <end> "gl"
 map global normal <home> "gh"
 map global normal <c-s> ':write<ret>'
-map global normal S '\%s'
 map global user c ':open-config<ret>' -docstring 'open kak config'
 map global normal "#" ":comment-line<ret>"
  
@@ -62,7 +60,6 @@ evaluate-commands %sh{
                             printf "%s\n" "source '$plugins/plug.kak/rc/plug.kak'"
 }
 plug "andreyorst/plug.kak" noload 
-plug "gspia/csv.kak"
 
 
 map global normal / '/(?i)'
@@ -203,10 +200,17 @@ hook global WinSetOption filetype=(typescript|rust|python|php|haskell|cpp|latex|
 
 hook global WinSetOption filetype=(csv) %{
   declare-user-mode csv-mode
+  csv-colour-rgx
   map window user a ': enter-user-mode csv-mode<ret>' -docstring 'csv mode'
+  add-highlighter window/csv-regions regions
   map global csv-mode c ': csv-colour-rgx<ret>' -docstring 'create regex for column'
-  map global csv-mode n ': csv-next-col<ret>' -docstring 'set register to match columns'
-  map global csv-mode h ': add-highlighter window/csv regex %opt{col_rgx} %opt{col_faces}<ret>' -docstring 'Highlight columns'
+  map global csv-mode r ': csv-next-col<ret>' -docstring 'set register to match columns'
+  map global csv-mode h ':add-highlighter window/csv regex %opt{col_rgx} %opt{col_faces}<ret>' -docstring 'Highlight columns'
+  map global csv-mode s ': col-select<ret>' -docstring 'Select current column'
+  map global csv-mode ) ': col-swap-forward<ret>' -docstring 'Swap column with next column'
+  map global csv-mode n ': col-extend<ret>' -docstring 'Extend column selection'
+  map global csv-mode N ': col-extend-back<ret>' -docstring 'Extend column selection backwards'
+  map global csv-mode <a-\(> ': col-swap-back<ret>' -docstring 'Swap column with previous column'
 
 }
 

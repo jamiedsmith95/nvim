@@ -10,27 +10,87 @@ define-command csv-column  %{
 
 declare-option -hidden regex csv_colour_rgx
 # declare-option regex csv_columns (?:,|^)("(?:(?:"")*[^"]*)*"|[^",\n]*|(?:\n|$))
-declare-option regex csv_columns (?:\n|,|^)("(?:(?:"")*[^"]*)*"|[^",]*|(?:\n|$))
-declare-option regex csv_columns_rgx (?:\\n|,|^)("(?:(?:"")*[^"]*)*"|[^",\\n]*|(?:\\n|$))
-declare-option int-list csvcount
+declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+[^"\n]*)+"|[^",\n]+)|(?:$|\n|,))
+# declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+[^"\n]*)+"|[^",\n]+)|(?:$|\n|,))
+declare-option regex csv_columns_rgx (?:,|^)\\h*\K("(?:(?:"")*[^"]*)*"|[^",\\n]*)
+declare-option int csvline
 declare-option int csv_width
 
 declare-option regex col_rgx
 declare-option str-list col_faces
 
-declare-option str-list column_faces "red" "green" "blue" "green" "blue"
+declare-option str-list column_faces "red" "green" "blue" "magenta" "yellow"
 
+define-command -docstring "Swap column with next column" col-swap-forward %{
+  evaluate-commands %{
+    try %{
+      evaluate-commands %sh{
+        if[ $kak_opt_col_num -ge $kak_opt_csv_width ]
+        then
+          echo 1
+        fi
 
-define-command -docstring "Colour the columns of the csv" csv-colour %{
-  set-option window csv_colour_col "%val{timestamp}"
-  try %{
-    add-highlighter window/ ranges csv_colour_col
-  }
-  evaluate-commands -save-regs '/' -draft %{
-    set-register / "%opt{csv_columns}"
-    execute-keys \%<a-s>
+      }
+    evaluate-commands -itersel %{
+    execute-keys N<a-)>,
+    }
+  } 
   }
 }
+
+define-command -docstring "Extend column highlight" col-extend %{
+  evaluate-commands %{
+    try %{
+      evaluate-commands %sh{
+        if[ $kak_opt_col_num -le $kak_opt_csv_width ]
+        then
+          echo 1
+        fi
+      }
+  evaluate-commands -itersel %{
+    execute-keys N
+  }
+}
+  }}
+
+define-command -docstring "Extend column highlight back" col-extend-back %{
+  evaluate-commands %{
+    try %{
+      evaluate-commands %sh{
+        if[ $kak_opt_col_num -le $kak_opt_csv_width ]
+        then
+          echo 1
+        fi
+      }
+  evaluate-commands -itersel %{
+    execute-keys <a-N>
+  }
+}
+  }}
+define-command -docstring "Swap column with previous column" col-swap-back %{
+  evaluate-commands %{
+    try %{
+      evaluate-commands %sh{
+        if[ $kak_opt_col_num -le $kak_opt_csv_width ]
+        then
+          echo 1
+        fi
+      }
+  evaluate-commands -itersel %{
+    execute-keys <a-N><a-(>,
+  }
+}
+  }}
+define-command -docstring "Select current column" col-select %{
+  csv-next-col
+  set buffer csvline %val{cursor_line}
+  execute-keys \%<a-s><home>
+  evaluate-commands -itersel %{
+    execute-keys %opt{col_num}n
+  }
+  execute-keys %opt{csvline})
+}
+
 define-command csv-uncolour %{
   rmhl window/csv-colour-columns
 }
@@ -39,22 +99,23 @@ define-command csv-colour-rgx %{
     csvtool width $kak_bufname
   }
   evaluate-commands  %sh{
-    index=$#
+    index=1
     eval "set -- $kak_quoted_opt_column_faces"
-    length=$#
     columns=$kak_opt_csv_width
+    length=$#
     rgx=""
     faces=""
     while [ $index -le $columns ]
     do
-      face_index=$(( (index + 1) % length ))
+      face_index=$(( (index - 1) % (length) ))
+      face_index=$(( face_index + 1 ))
       eval face=\$$face_index
       rgx="${rgx}(?<col${index}>${kak_opt_csv_columns_rgx})"
       faces="${faces} col${index}:${face}"
       index=$(( $index + 1))
     done
     echo "
-      set window col_rgx $rgx
+      set window col_rgx $rgx\$
       set window col_faces $faces
     "
   }
@@ -90,9 +151,9 @@ define-command csv-next-col %{
 
 hook global WinSetOption filetype=(csv) %{
   eval %{
-    csv-disable
     csv-colour-rgx
   }
+    add-highlighter -override window/csv regex %opt{col_rgx} %opt{col_faces} 
   hook buffer NormalIdle .* %{
     try %{
     csv-column
@@ -102,6 +163,10 @@ hook global WinSetOption filetype=(csv) %{
   }
   }
   hook buffer InsertChar .* %{
+    eval %{
+    csv-colour-rgx
+    }
+    add-highlighter -override window/csv regex %opt{col_rgx} %opt{col_faces} 
     try %{
     csv-column
   info -style above -anchor "%val{cursor_line}.%val{cursor_column}" %sh{
