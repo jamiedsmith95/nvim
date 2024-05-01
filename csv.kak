@@ -5,9 +5,30 @@ define-command csv-column  %{
       cursor=$(( $kak_cursor_column  ))
       if [ $cursor -gt 1 ]
       then
-        cursor=$(( cursor - 1))
+        cursor=$(( cursor))
       fi
       sed ''$kak_cursor_line'q;d' $kak_bufname | cut -c 1-$cursor  | csvtool width '-'
+
+
+     }
+    } catch %{
+    set window col_num %sh{
+      cursor=$(( $kak_cursor_column  ))
+      if [ $cursor -gt 1 ]
+      then
+        cursor=$(( cursor))
+      fi
+      sed ''$kak_cursor_line'q;d' $kak_bufname | cut -c 1-$cursor |  sed 's/.*/&"/' | csvtool width '-'
+
+    }
+        } catch %{
+    set window col_num %sh{
+      cursor=$(( $kak_cursor_column  ))
+      if [ $cursor -gt 1 ]
+      then
+        cursor=$(( cursor))
+      fi
+      sed ''$kak_cursor_line'q;d' $kak_bufname | cut -c 1-$cursor |  sed 's/.*/&""/' | csvtool width '-'
 
     }
     }
@@ -16,9 +37,11 @@ define-command csv-column  %{
 
 declare-option -hidden regex csv_colour_rgx
 # declare-option regex csv_columns (?:,|^)("(?:(?:"")*[^"]*)*"|[^",\n]*|(?:\n|$))
-declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")*[^"\n]*)*"|[^",\n]*)|(?:$|\n|,))
+# declare-option regex csv_columns ,|^(("("")?[^"\n\H]*")|([^",\n]*))
+declare-option regex csv_columns (?<=[,^\n])((?:"(?:\{.+?\})?(?:"")*[^\n]*\s*")|(?:[^"\n,]*))(?=[$\n,])
 # declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+[^"\n]*)+"|[^",\n]+)|(?:$|\n|,))
-declare-option regex csv_columns_rgx (?:,|^)\\h*\K("(?:(?:"")*[^"\\n]*)*"|[^",\\n]*)
+# declare-option regex csv_columns_rgx (?<=[,^\\n])\\h*("(?:(?:"")*[^"\\n]*)*"|[^",\\n]*)(?=[$\\n,])
+declare-option regex csv_columns_rgx (?<=[,^])("(?:\{.*\})+?(?:"")*[^"\\n]*")?|([^",\\n]*)?(?:$|,|\\n)
 declare-option int csvline
 declare-option int csv_width
 
@@ -161,11 +184,9 @@ hook global WinSetOption filetype=(csv) %{
   }
     add-highlighter -override window/csv regex %opt{col_rgx} %opt{col_faces} 
   hook buffer NormalIdle .* %{
-    try %{
     csv-column
   info -style above -anchor "%val{cursor_line}.%val{cursor_column}" %sh{
     csvtool col $(( $kak_opt_col_num )) $kak_buffile | head -1
-  }
   }
   }
   hook buffer InsertChar .* %{
@@ -173,19 +194,15 @@ hook global WinSetOption filetype=(csv) %{
     csv-colour-rgx
     }
     add-highlighter -override window/csv regex %opt{col_rgx} %opt{col_faces} 
-    try %{
     csv-column
   info -style above -anchor "%val{cursor_line}.%val{cursor_column}" %sh{
     csvtool col $(( $kak_opt_col_num )) $kak_buffile | head -1
-  }
   }
   }
   hook buffer InsertMove .* %{
-    try %{
     csv-column
   info -style above -anchor "%val{cursor_line}.%val{cursor_column}" %sh{
     csvtool col $(( $kak_opt_col_num )) $kak_buffile | head -1
-  }
   }
   }
 }
