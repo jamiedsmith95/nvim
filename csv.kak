@@ -38,12 +38,19 @@ define-command csv-column  %{
 declare-option -hidden regex csv_colour_rgx
 # declare-option regex csv_columns (?:,|^)("(?:(?:"")*[^"]*)*"|[^",\n]*|(?:\n|$))
 # declare-option regex csv_columns ,|^(("("")?[^"\n\H]*")|([^",\n]*))
-declare-option regex csv_columns (?<=[,^\n])((?:"(?:\{.+?\})?(?:"")*[^\n]*\s*")|(?:[^"\n,]*))(?=[$\n,])
+# declare-option regex csv_columns (?<=[,^\n])((?:"(?:\{.+?\})?(?:"")*[^\n]*\s*")|(?:[^"\n,]*))(?=[$\n,])
 # declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+[^"\n]*)+"|[^",\n]+)|(?:$|\n|,))
 # declare-option regex csv_columns_rgx (?<=[,^\\n])\\h*("(?:(?:"")*[^"\\n]*)*"|[^",\\n]*)(?=[$\\n,])
-declare-option regex csv_columns_rgx (?<=[,^])("(?:\{.*\})+?(?:"")*[^"\\n]*")?|([^",\\n]*)?(?:$|,|\\n)
+# declare-option regex csv_columns_rgx (?<=[,^])("(?:\{.*\})+?(?:"")*[^"\\n]*")?|([^",\\n]*)?(?:$|,|\\n)
 declare-option int csvline
 declare-option int csv_width
+
+declare-option regex csv_columns (?<=[,^\n])(("[^\n]+?")|([^,\n"]*))?(?=[$,\n])
+
+# declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+?[^"\n]*)+?"|[^",\n]+)|(?:$|\n|,))
+# declare-option regex csv_columns_rgx (?:,|^)\\h*\K("(?:(?:"")*[^"\\n]*)"|[^",\\n]*)
+# declare-option regex csv_columns_rgx (?<=[,^])("(?:(?:"")*[^\\n]*)")|([^",\\n]*)(?=[\\n,$]) # works for simple
+declare-option regex csv_columns_rgx ("(?:(?:"")*|(?:')*[^\\n]*(?:"")*|(?:')*)")|([^",\\n]*)
 
 declare-option regex col_rgx
 declare-option str-list col_faces
@@ -132,19 +139,19 @@ define-command csv-colour-rgx %{
     eval "set -- $kak_quoted_opt_column_faces"
     columns=$kak_opt_csv_width
     length=$#
-    rgx=
+    rgx=""
     faces=""
     while [ $index -le $columns ]
     do
       face_index=$(( (index - 1) % (length) ))
       face_index=$(( face_index + 1 ))
       eval face=\$$face_index
-      rgx="${rgx}(?<col${index}>${kak_opt_csv_columns_rgx})"
+      rgx="${rgx}(?<col${index}>${kak_opt_csv_columns_rgx}),"
       faces="${faces} col${index}:${face}"
       index=$(( $index + 1))
     done
     echo "
-      set window col_rgx $rgx\$
+      set window col_rgx ^$rgx?\$
       set window col_faces $faces
     "
   }
