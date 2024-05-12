@@ -35,22 +35,17 @@ define-command csv-column  %{
 }
 }
 
+
+
+
 declare-option -hidden regex csv_colour_rgx
-# declare-option regex csv_columns (?:,|^)("(?:(?:"")*[^"]*)*"|[^",\n]*|(?:\n|$))
-# declare-option regex csv_columns ,|^(("("")?[^"\n\H]*")|([^",\n]*))
-# declare-option regex csv_columns (?<=[,^\n])((?:"(?:\{.+?\})?(?:"")*[^\n]*\s*")|(?:[^"\n,]*))(?=[$\n,])
-# declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+[^"\n]*)+"|[^",\n]+)|(?:$|\n|,))
-# declare-option regex csv_columns_rgx (?<=[,^\\n])\\h*("(?:(?:"")*[^"\\n]*)*"|[^",\\n]*)(?=[$\\n,])
-# declare-option regex csv_columns_rgx (?<=[,^])("(?:\{.*\})+?(?:"")*[^"\\n]*")?|([^",\\n]*)?(?:$|,|\\n)
 declare-option int csvline
 declare-option int csv_width
 
 declare-option regex csv_columns (?<=[,^\n])(("[^\n]+?")|([^,\n"]*))?(?=[$,\n])
 
 # declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+?[^"\n]*)+?"|[^",\n]+)|(?:$|\n|,))
-# declare-option regex csv_columns_rgx (?:,|^)\\h*\K("(?:(?:"")*[^"\\n]*)"|[^",\\n]*)
-# declare-option regex csv_columns_rgx (?<=[,^])("(?:(?:"")*[^\\n]*)")|([^",\\n]*)(?=[\\n,$]) # works for simple
-declare-option regex csv_columns_rgx ("(?:(?:"")*|(?:')*[^\\n]*(?:"")*|(?:')*)")|([^",\\n]*)
+declare-option regex csv_columns_rgx ([^",\\n]*){1}|(?:['"[{]+[^\\n]+?['"[{]) # works on the test kaggle
 
 declare-option regex col_rgx
 declare-option str-list col_faces
@@ -189,7 +184,7 @@ hook global WinSetOption filetype=(csv) %{
   eval %{
     csv-colour-rgx
   }
-    add-highlighter -override window/csv regex %opt{col_rgx} %opt{col_faces} 
+    # add-highlighter -override window/csv regex %opt{col_rgx} %opt{col_faces} 
   hook buffer NormalIdle .* %{
     csv-column
   info -style above -anchor "%val{cursor_line}.%val{cursor_column}" %sh{

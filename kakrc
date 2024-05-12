@@ -3,7 +3,6 @@ set-option global tabstop 2
 set-option global indentwidth 2
 set-option global scrolloff 8,3
 set-face global CurWord +b
-source ~/.config/kak/csv.kak
 declare-option int col_num 1
 add-highlighter	global/ number-lines -hlcursor -relative -separator " "
 add-highlighter global/ show-matching
@@ -13,14 +12,13 @@ hook global ClientCreate .* %{
     set-option -add global ui_options terminal_enable_mouse=false
   }
 
-define-command open-config %{
-  execute-keys ':edit ~/.config/kak/kakrc<ret>'
+define-command  open-config %{
+  execute-keys -with-hooks ':edit ~/.config/kak/kakrc<ret>'
   }
 
 hook global WinSetOption filetype=(typescript) %{
   colorscheme gruvbox-dark
 }
-
 
 hook global InsertCompletionShow .* %{
     map window insert <tab> <c-n>
@@ -181,11 +179,13 @@ hook global WinSetOption filetype=(typescript|rust|python|php|haskell|cpp|latex|
       colorscheme pastel
       set-face window documentation default,default,default+d
       jedi-enable-autocomplete
+      add-highlighter window/mypy regions
       # set-option window lintcmd "flake8 --filename='*' --format='%%(path)s:%%(row)d:%%(col)d: error: %%(text)s' --ignore=E121,E123,E126,E226,E24,E704,W503,W504,E501,E221,E127,E128,E129,F405"
-      add-highlighter window/indent show-whitespaces -indent '|' -lf ' ' -tab ' ' -tabpad ' ' -nbsp '-' -spc ' '
+      # add-highlighter window/indent show-whitespaces -indent '|' -lf ' ' -tab ' ' -tabpad ' ' -nbsp '-' -spc '.'
       set window indentwidth 4
       set window tabstop 4
       set-option window formatcmd "black -"
+      source ~/.config/kak/py.kak
     }
     
     hook global WinSetOption filetype=sh %{
@@ -231,6 +231,10 @@ plug 'jordan-yee/kakoune-git-mode' config %{
     map global user g ': enter-user-mode git<ret>' -docstring "git mode"
     map global git o ': tmux-terminal-window lazygit<ret>' -docstring "open lazygit in new window"
 }
+
+
+
+
 # git conflict
 map global object m %{c^[<lt>=]{4\,}[^\n]*\n,^[<gt>=]{4\,}[^\n]*\n<ret>} -docstring 'conflict markers'
 define-command conflict-use-1 %{
@@ -250,3 +254,5 @@ define-command conflict-use-2 %{
   }
 } -docstring "resolve a conflict by using the second version"
 
+
+source ~/.config/kak/csv.kak
