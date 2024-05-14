@@ -185,7 +185,7 @@ hook global WinSetOption filetype=(typescript|rust|python|php|haskell|cpp|latex|
       set window indentwidth 4
       set window tabstop 4
       set-option window formatcmd "black -"
-      source ~/.config/kak/py.kak
+      # source ~/.config/kak/py.kak
     }
     
     hook global WinSetOption filetype=sh %{
@@ -210,7 +210,7 @@ hook global WinSetOption filetype=(csv) %{
   map global csv-mode ) ': col-swap-forward<ret>' -docstring 'Swap column with next column'
   map global csv-mode n ': col-extend<ret>' -docstring 'Extend column selection'
   map global csv-mode N ': col-extend-back<ret>' -docstring 'Extend column selection backwards'
-  map global csv-mode <a-\(> ': col-swap-back<ret>' -docstring 'Swap column with previous column'
+  map global csv-mode <a-(> ': col-swap-back<ret>' -docstring 'Swap column with previous column'
 
 }
 

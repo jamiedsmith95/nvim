@@ -35,18 +35,13 @@ define-command csv-column  %{
 }
 }
 
-
-
-
 declare-option -hidden regex csv_colour_rgx
 declare-option int csvline
 declare-option int csv_width
-
-declare-option regex csv_columns (?<=[,^\n])(("[^\n]+?")|([^,\n"]*))?(?=[$,\n])
-
-# declare-option regex csv_columns (?:,|^)\K(("(?:(?:"")+?[^"\n]*)+?"|[^",\n]+)|(?:$|\n|,))
-declare-option regex csv_columns_rgx ([^",\\n]*){1}|(?:['"[{]+[^\\n]+?['"[{]) # works on the test kaggle
-
+# declare-option regex csv_columns (?<=[,^\n])(("[^\n]+?")|([^,\n"]*))?(?=[$,\n])
+declare-option regex csv_columns (?<=[,^])\K(()|(?:[^",\n]*)|("(?:([^\n"]*)|(""))*"))(?=[$,\n])
+# declare-option regex csv_columns_rgx (([^",\\\n]*)|("("")*[^\\\n]+("")*"))
+declare-option regex csv_columns_rgx ("(?:([^\\n"]*)|(""))*")|(?:[^",\\n]+)|() #works for uf7
 declare-option regex col_rgx
 declare-option str-list col_faces
 
