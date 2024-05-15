@@ -39,7 +39,7 @@ declare-option -hidden regex csv_colour_rgx
 declare-option int csvline
 declare-option int csv_width
 # declare-option regex csv_columns (?<=[,^\n])(("[^\n]+?")|([^,\n"]*))?(?=[$,\n])
-declare-option regex csv_columns (?<=[,^])\K(()|(?:[^",\n]*)|("(?:([^\n"]*)|(""))*"))(?=[$,\n])
+declare-option regex csv_columns (?<=[,^])\K((?:[^",\n]*)|("(?:([^\n"]*)|(""))*")|())(?=[$,\n])
 # declare-option regex csv_columns_rgx (([^",\\\n]*)|("("")*[^\\\n]+("")*"))
 declare-option regex csv_columns_rgx ("(?:([^\\n"]*)|(""))*")|(?:[^",\\n]+)|() #works for uf7
 declare-option regex col_rgx
@@ -110,9 +110,9 @@ define-command -docstring "Swap column with previous column" col-swap-back %{
 define-command -docstring "Select current column" col-select %{
   csv-next-col
   set buffer csvline %val{cursor_line}
-  execute-keys \%<a-s><home>
+  execute-keys \%<a-s>gh
   evaluate-commands -itersel -no-hooks %{
-    execute-keys %opt{col_num}n
+    execute-keys %opt{col_num}n<a-n>
   }
   execute-keys %opt{csvline})
 }
