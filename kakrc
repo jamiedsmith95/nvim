@@ -185,7 +185,7 @@ hook global WinSetOption filetype=(typescript|rust|python|php|haskell|cpp|latex|
       set window indentwidth 4
       set window tabstop 4
       set-option window formatcmd "black -"
-      # source ~/.config/kak/py.kak
+      source ~/.config/kak/py.kak
     }
     
     hook global WinSetOption filetype=sh %{
