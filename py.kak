@@ -5,8 +5,8 @@ declare-option -hidden regex indent_reg (?<=:[\n])\h{4}(?=[\w])
 declare-option str-list indent_str1
 declare-option str-list indent_str2
 declare-option str-list indent_str3
-declare-option -hidden regex indent_reg2 (?<=:[\n])\h{8}(?=[\w])
-declare-option -hidden regex indent_start2 ^\h{4}\w.+?:\n
+declare-option -hidden regex indent_reg2 (?S)^\h{4}\w.+?:$
+declare-option -hidden regex indent_start2 (?S)^\h{4}\w.+?:$
 declare-option -hidden regex indent_reg3 (?<=:[\n])\h{12}(?=[\w])
 declare-option -hidden regex indent_search1 (^$\n)+(?=[\w])
 declare-option -hidden regex indent_search2 ^\h{4}(?=[\w])
@@ -33,30 +33,41 @@ define-command -docstring "get indentations" get-indent %{
     set-option window indent_str1 
     set-option window indent_str2 
     set-option window indent_str3
-    set-register slash %opt{indent_start2}
+    set-register slash %opt{indent_reg2}
     try %{
-      execute-keys <a-/><up><ret>x?(^\h{4}(\H|^$))<ret><a-s>s^\h{8,}(?=[\H])<ret>
-      set-register slash %opt{indent_reg2}
-        execute-keys -itersel ghl
+      execute-keys \%s<up><ret><a-s>
+      execute-keys -itersel ghlLL
       evaluate-commands -itersel %{
-        set-option -add window indent_str2 "%val{selection_desc}|{blue}║"
+      set-option -add window indent_str2 "%val{selection_desc}|{blue+d}╔═▷"
       }
+      evaluate-commands -itersel %{
+      execute-keys  ghjgh]i<a-s>
+      execute-keys -itersel ghl
+      }
+
+      evaluate-commands -itersel %{
+        set-option -add window indent_str2 "%val{selection_desc}|{blue+d}║"
+      }
+      
+      
+
+
     }
 
     set-register slash %opt{indent_reg}
     try %{
     execute-keys \%s<up><ret>
      evaluate-commands -itersel %{
-       set-option -add window indent_str1  "%val{selection_desc}|{green}╔══▷"
+       set-option -add window indent_str1  "%val{selection_desc}|{green+d}╔══▷"
    }
     }
-     set-register slash %opt{indent_search1}
+
      try %{
        # execute-keys ?<up><ret>s^\h{4}(?=[\H])<ret><a-s>
-       execute-keys ?<up><ret>s^\h*(?=[\H])<ret><a-s>
+       execute-keys -itersel ]i<ret>X<a-s>
          execute-keys -itersel gh
        evaluate-commands -itersel %{
-         set-option -add window indent_str1 "%val{selection_desc}|{green}║"
+         set-option -add window indent_str1 "%val{selection_desc}|{green+d}║"
        }
      }
 
