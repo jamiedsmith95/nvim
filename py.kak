@@ -5,12 +5,13 @@ declare-option -hidden regex indent_reg (?<=:[\n])\h{4}(?=[\w])
 declare-option str-list indent_str1
 declare-option str-list indent_str2
 declare-option str-list indent_str3
-declare-option -hidden regex indent_reg2 (?S)^\h{4}\w.+?:$
-declare-option -hidden regex indent_start2 (?S)^\h{4}\w.+?:$
-declare-option -hidden regex indent_reg3 (?<=:[\n])\h{12}(?=[\w])
-declare-option -hidden regex indent_search1 (^$\n)+(?=[\w])
-declare-option -hidden regex indent_search2 ^\h{4}(?=[\w])
-declare-option -hidden regex indent_search3 ^\h{8}(?=[\w])
+declare-option str myred 'red+d'
+declare-option int mycursor
+declare-option int int1
+declare-option int int2
+declare-option -hidden regex indent_reg2 (?S)^\h{4}\H.+?:$
+declare-option -hidden regex indent_start2 (?S)^\h{4}\H.+?:$
+declare-option -hidden regex indent_reg3 (?S)^\h{8}\H.+?:$
 
 hook window NormalIdle .* %{
   # remove-highlighter  window/inrange1
@@ -33,15 +34,102 @@ define-command -docstring "get indentations" get-indent %{
     set-option window indent_str1 
     set-option window indent_str2 
     set-option window indent_str3
+    set-option window mycursor %val{cursor_line}
+
+    # select 3rd indentations
+    set-register slash %opt{indent_reg3}
+
+    # try %{
+      # execute-keys \%s<up><ret>
+      # execute-keys -itersel ghllGiH
+      # evaluate-commands -itersel %{
+      #   set-option -add window indent_str3 "%val{selection_desc}|{red+d}╔════▷"
+      #   execute-keys  ghjgh]i<a-s><a-,>
+      #   execute-keys -itersel ghll
+      # }
+      execute-keys \%s<up><ret>
+      evaluate-commands -itersel -draft  %{
+
+      set-option window int1 %val{cursor_line}
+      execute-keys jgh]i\;
+      set-option window int2 %val{cursor_line}
+
+        evaluate-commands -draft %sh{
+          red="red+d"
+          if [ $kak_opt_int1 -le $kak_opt_mycursor -a $kak_opt_int2 -ge $kak_opt_mycursor ]
+          then
+            red="red"
+          fi
+          echo "
+          set window myred $red"
+        }
+      execute-keys <a-n>ghllGiH
+
+
+        set-option -add window indent_str3 "%val{selection_desc}|{%opt{myred}}╔════▷"
+        execute-keys  ghjgh]i<a-s><a-,>
+        execute-keys -itersel ghll
+      
+      evaluate-commands -itersel %{
+        set-option -add window indent_str3 "%val{selection_desc}|{%opt{myred}}║"
+      }
+      execute-keys \%s<up><ret>
+      execute-keys -itersel j]i<a-K>taggerine<ret>ghll
+      evaluate-commands -itersel %{
+        set-option -add window indent_str3 "%val{selection_desc}|{%opt{myred}}╚"
+      }
+      execute-keys lGiHHs.<ret>
+      evaluate-commands -itersel %{
+        set-option -add window indent_str3 "%val{selection_desc}|{%opt{myred}}═"
+      }
+      execute-keys gih
+      evaluate-commands -itersel %{
+      set-option -add window indent_str3 "%val{selection_desc}|{%opt{myred}}X"
+      }
+      }
+    # }
+    # try %{
+    #   execute-keys \"cz<a-s>
+    #   evaluate-commands -itersel %{
+    #     set-option -remove window indent_str3 "%val{selection_desc}|{red+d}╔════▷"
+    #     set-option -add window indent_str3 "%val{selection_desc}|{red}╔════▷"
+    #     execute-keys  ghjgh]i<a-s><a-,>
+    #     execute-keys -itersel ghll
+    #   }
+    #   evaluate-commands -itersel %{
+    #     set-option -remove window indent_str3 "%val{selection_desc}|{red+d}║"
+    #     set-option -add window indent_str3 "%val{selection_desc}|{red}║"
+    #   }
+    #   execute-keys \%s<up><ret>
+    #   execute-keys -itersel j]ighll
+    #   evaluate-commands -itersel %{
+    #     set-option -remove window indent_str3 "%val{selection_desc}|{red+d}╚"
+    #     set-option -add window indent_str3 "%val{selection_desc}|{red}╚"
+    #   }
+    #   execute-keys lGiHHs.<ret>
+    #   evaluate-commands -itersel %{
+    #     set-option -remove window indent_str3 "%val{selection_desc}|{red+d}═"
+    #     set-option -add window indent_str3 "%val{selection_desc}|{red}═"
+    #   }
+    #   execute-keys gih
+    #   evaluate-commands -itersel %{
+    #   set-option -remove window indent_str3 "%val{selection_desc}|{red+d}X"
+    #   set-option -add window indent_str3 "%val{selection_desc}|{red}X"
+    #   }
+    # }
+
+
     set-register slash %opt{indent_reg2}
     try %{
+      execute-keys <a-n>j]i"bZ
       execute-keys \%s<up><ret><a-s>
       execute-keys -itersel ghlLL
       evaluate-commands -itersel %{
+
       set-option -add window indent_str2 "%val{selection_desc}|{blue+d}╔═▷"
-      }
+      
       evaluate-commands -itersel %{
-      execute-keys  ghjgh]i<a-s>
+      execute-keys  ghjgh]i<a-s><a-,>
       execute-keys -itersel ghl
       }
 
@@ -49,26 +137,44 @@ define-command -docstring "get indentations" get-indent %{
         set-option -add window indent_str2 "%val{selection_desc}|{blue+d}║"
       }
       
+      execute-keys \%s<up><ret>
+      execute-keys -itersel j]ighl
+      evaluate-commands -itersel %{
+        set-option -add window indent_str2 "%val{selection_desc}|{blue+d}╚"
+      }
+      execute-keys lGiHHs.<ret>
+      evaluate-commands -itersel %{
+        set-option -add window indent_str2 "%val{selection_desc}|{blue+d}═"
+      }
+      execute-keys gih
+      evaluate-commands -itersel %{
+      set-option -add window indent_str2 "%val{selection_desc}|{blue+d}X"
+      }
       
-
-
+    }
     }
 
     set-register slash %opt{indent_reg}
     try %{
-    execute-keys \%s<up><ret>
+      execute-keys <a-n>j]i"aZ
+    execute-keys \%s<up><ret>gh
      evaluate-commands -itersel %{
-       set-option -add window indent_str1  "%val{selection_desc}|{green+d}╔══▷"
+       set-option -add window indent_str1  "%val{selection_desc}|{green+d}▲"
    }
     }
 
      try %{
        # execute-keys ?<up><ret>s^\h{4}(?=[\H])<ret><a-s>
-       execute-keys -itersel ]i<ret>X<a-s>
+       execute-keys -itersel ]i<ret>X<a-s><a-,>)<a-,>
          execute-keys -itersel gh
        evaluate-commands -itersel %{
          set-option -add window indent_str1 "%val{selection_desc}|{green+d}║"
        }
+      execute-keys \%s<up><ret>
+      execute-keys -itersel j]igh
+      evaluate-commands -itersel %{
+        set-option -add window indent_str1 "%val{selection_desc}|{green+d}▼"
+      }
      }
 
    #  set-register slash %opt{indent_reg2}
