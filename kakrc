@@ -32,7 +32,9 @@ hook global InsertCompletionHide .* %{
 
 
 map global normal <c-f> <c-o>
+map global normal = <a-+>
 map global user s ':enter-user-mode selectors<ret>' -docstring 'selectors'
+map global user b ':e *debug*<ret>'
 # leave insert mode when changing line
 map global insert <up> '<esc>k'
 map global insert <down> '<esc>j'
@@ -60,7 +62,7 @@ evaluate-commands %sh{
 plug "andreyorst/plug.kak" noload 
 
 
-map global normal / '/(?i)'
+map global user / '/(?i)' -docstring "case insensitive search"
 
 
 plug "alexherbo2/auto-pairs.kak" config %{
@@ -220,7 +222,7 @@ plug "caksoylar/kakoune-focus" config %{
 plug "danr/kakoune-easymotion" config %{
   map global user t ': enter-user-mode easymotion<ret>' -docstring 'easymotion'
 }
-plug 'alexherbo2/connect.kak' %{
+plug 'alexherbo2/connect.kak' config %{
   map global user r %{:connect lf %val{buffile} <ret>} -docstring 'lf'
 }
 
