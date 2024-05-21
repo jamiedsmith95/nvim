@@ -164,7 +164,7 @@ hook global WinSetOption filetype=(typescript|rust|python|php|haskell|cpp|latex|
         echo -debug "Enabling LSP for filtetype %opt{filetype}"
     lsp-auto-hover-enable
     set-option global lsp_hover_anchor true
-    set-option global lsp_show_hover_format 'printf %s \n %s "${lsp_diagnostics}"'
+    set-option global lsp_show_hover_format 'printf "%s \n %s" "${lsp_diagnostics}" "${lsp_info}"'
     lsp-auto-signature-help-enable
     
 
