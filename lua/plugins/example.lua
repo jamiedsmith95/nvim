@@ -1,6 +1,13 @@
 -- since this is just an example spec, don't actually load anything here and return an empty spec
 -- stylua: ignore
-if true then return {} end
+if true then return {
+{
+  "NotAShelf/direnv.nvim",
+  config = function()
+    require("direnv").setup({})
+  end,
+}
+} end
 
 -- every spec file under the "plugins" directory will be loaded automatically by lazy.nvim
 --
@@ -10,7 +17,6 @@ if true then return {} end
 -- * override the configuration of LazyVim plugins
 return {
   -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
 
   -- Configure LazyVim to load gruvbox
   {
@@ -19,6 +25,10 @@ return {
       colorscheme = "gruvbox",
     },
   },
+  { import = "lazyvim.plugins.extras.lang.json" },
+  { import = "lazyvim.plugins.extras.lang.typescript" },
+  { import = "lazyvim.plugins.extras.lang.haskell" },
+  { "ellisonleao/gruvbox.nvim" },
 
   -- change trouble config
   {
@@ -79,16 +89,7 @@ return {
   -- add tsserver and setup with typescript.nvim instead of lspconfig
   {
     "neovim/nvim-lspconfig",
-    dependencies = {
-      "jose-elias-alvarez/typescript.nvim",
-      init = function()
-        require("lazyvim.util").lsp.on_attach(function(_, buffer)
-          -- stylua: ignore
-          vim.keymap.set( "n", "<leader>co", "TypescriptOrganizeImports", { buffer = buffer, desc = "Organize Imports" })
-          vim.keymap.set("n", "<leader>cR", "TypescriptRenameFile", { desc = "Rename File", buffer = buffer })
-        end)
-      end,
-    },
+    dependencies = {},
     ---@class PluginLspOpts
     opts = {
       ---@type lspconfig.options
@@ -113,9 +114,17 @@ return {
 
   -- for typescript, LazyVim also includes extra specs to properly setup lspconfig,
   -- treesitter, mason and typescript.nvim. So instead of the above, you can use:
-  { import = "lazyvim.plugins.extras.lang.typescript" },
 
   -- add more treesitter parsers
+  {
+    "mrcjkb/haskell-tools.nvim",
+    -- To avoid being surprised by breaking changes,
+    -- I recommend you set a version range
+    version = "^10",
+    -- This plugin implements proper lazy-loading (see :h lua-plugin-lazy).
+    -- No need for lazy.nvim to lazy-load it.
+    lazy = true,
+  },
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
@@ -127,6 +136,7 @@ return {
         "lua",
         "markdown",
         "markdown_inline",
+        "haskell",
         "python",
         "query",
         "regex",
@@ -177,14 +187,13 @@ return {
   },
 
   -- use mini.starter instead of alpha
-  { import = "lazyvim.plugins.extras.ui.mini-starter" },
+  -- { import = "lazyvim.plugins.extras.ui.mini-starter" },
 
   -- add jsonls and schemastore packages, and setup treesitter for json, json5 and jsonc
-  { import = "lazyvim.plugins.extras.lang.json" },
 
   -- add any tools you want to have installed below
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
     opts = {
       ensure_installed = {
         "stylua",
