@@ -1,13 +1,7 @@
 -- since this is just an example spec, don't actually load anything here and return an empty spec
 -- stylua: ignore
-if true then return {
-{
-  "NotAShelf/direnv.nvim",
-  config = function()
-    require("direnv").setup({})
-  end,
-}
-} end
+-- if true then return {
+-- }
 
 -- every spec file under the "plugins" directory will be loaded automatically by lazy.nvim
 --
@@ -29,6 +23,7 @@ return {
   { import = "lazyvim.plugins.extras.lang.typescript" },
   { import = "lazyvim.plugins.extras.lang.haskell" },
   { "ellisonleao/gruvbox.nvim" },
+  {"nvim-mini/mini.nvim", version=false},
 
   -- change trouble config
   {
@@ -36,9 +31,15 @@ return {
     -- opts will be merged with the parent spec
     opts = { use_diagnostic_signs = true },
   },
+  {
+    "folke/flash.nvim",
+    keys = {
+      {"s", mode = {"v", "n", "x", "o"}, false},
+    },
+  },
 
   -- disable trouble
-  { "folke/trouble.nvim", enabled = false },
+  { "folke/trouble.nvim", enabled = true },
 
   -- override nvim-cmp and add cmp-emoji
   {
